@@ -1,0 +1,1 @@
+-v --force --timestamp=none --sign - /Users/rezashrestha/Documents/Fall2025/MSCS533(Software Engineering and miltiplatform app development)/FinalProject/MSCS533-MAUIApp/LocationTracker/bin/Debug/net8.0-ios/iossimulator-arm64/LocationTracker.app/libmonosgen-2.0.dylib

@@ -63,19 +63,11 @@
               "target": "Package",
               "version": "[8.0.100, )"
             },
-            "Microsoft.Maui.Controls.Maps": {
-              "target": "Package",
-              "version": "[8.0.3, )"
-            },
             "Microsoft.NET.ILLink.Tasks": {
               "suppressParent": "All",
               "target": "Package",
               "version": "[8.0.22, )",
               "autoReferenced": true
-            },
-            "sqlite-net-pcl": {
-              "target": "Package",
-              "version": "[1.8.116, )"
             }
           },
           "imports": [
@@ -110,19 +102,11 @@
               "target": "Package",
               "version": "[8.0.100, )"
             },
-            "Microsoft.Maui.Controls.Maps": {
-              "target": "Package",
-              "version": "[8.0.3, )"
-            },
             "Microsoft.NET.ILLink.Tasks": {
               "suppressParent": "All",
               "target": "Package",
               "version": "[8.0.22, )",
               "autoReferenced": true
-            },
-            "sqlite-net-pcl": {
-              "target": "Package",
-              "version": "[1.8.116, )"
             }
           },
           "imports": [
@@ -157,19 +141,11 @@
               "target": "Package",
               "version": "[8.0.100, )"
             },
-            "Microsoft.Maui.Controls.Maps": {
-              "target": "Package",
-              "version": "[8.0.3, )"
-            },
             "Microsoft.NET.ILLink.Tasks": {
               "suppressParent": "All",
               "target": "Package",
               "version": "[8.0.22, )",
               "autoReferenced": true
-            },
-            "sqlite-net-pcl": {
-              "target": "Package",
-              "version": "[1.8.116, )"
             }
           },
           "imports": [

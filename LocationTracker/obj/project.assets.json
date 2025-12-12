@@ -328,22 +328,6 @@
           }
         }
       },
-      "Microsoft.Maui.Controls.Maps/8.0.3": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.Maui.Maps": "8.0.3"
-        },
-        "compile": {
-          "lib/net8.0-android34.0/Microsoft.Maui.Controls.Maps.dll": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "runtime": {
-          "lib/net8.0-android34.0/Microsoft.Maui.Controls.Maps.dll": {
-            "related": ".pdb;.xml"
-          }
-        }
-      },
       "Microsoft.Maui.Controls.Xaml/8.0.100": {
         "type": "package",
         "dependencies": {
@@ -427,22 +411,6 @@
           }
         }
       },
-      "Microsoft.Maui.Maps/8.0.3": {
-        "type": "package",
-        "dependencies": {
-          "Xamarin.GooglePlayServices.Maps": "118.1.0.3"
-        },
-        "compile": {
-          "lib/net8.0-android34.0/Microsoft.Maui.Maps.dll": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "runtime": {
-          "lib/net8.0-android34.0/Microsoft.Maui.Maps.dll": {
-            "related": ".pdb;.xml"
-          }
-        }
-      },
       "Microsoft.Maui.Resizetizer/8.0.100": {
         "type": "package",
         "build": {
@@ -454,106 +422,6 @@
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
-        }
-      },
-      "sqlite-net-pcl/1.8.116": {
-        "type": "package",
-        "dependencies": {
-          "SQLitePCLRaw.bundle_green": "2.0.4"
-        },
-        "compile": {
-          "lib/netstandard2.0/SQLite-net.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/netstandard2.0/SQLite-net.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "SQLitePCLRaw.bundle_green/2.0.4": {
-        "type": "package",
-        "dependencies": {
-          "SQLitePCLRaw.core": "2.0.4",
-          "SQLitePCLRaw.lib.e_sqlite3.android": "2.0.4",
-          "SQLitePCLRaw.provider.e_sqlite3": "2.0.4"
-        },
-        "compile": {
-          "lib/netcoreapp3.1/SQLitePCLRaw.batteries_v2.dll": {},
-          "lib/netcoreapp3.1/SQLitePCLRaw.nativelibrary.dll": {}
-        },
-        "runtime": {
-          "lib/netcoreapp3.1/SQLitePCLRaw.batteries_v2.dll": {},
-          "lib/netcoreapp3.1/SQLitePCLRaw.nativelibrary.dll": {}
-        }
-      },
-      "SQLitePCLRaw.core/2.0.4": {
-        "type": "package",
-        "dependencies": {
-          "System.Memory": "4.5.3"
-        },
-        "compile": {
-          "lib/netstandard2.0/SQLitePCLRaw.core.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/SQLitePCLRaw.core.dll": {}
-        }
-      },
-      "SQLitePCLRaw.lib.e_sqlite3.android/2.0.4": {
-        "type": "package",
-        "compile": {
-          "lib/monoandroid80/SQLitePCLRaw.lib.e_sqlite3.android.dll": {}
-        },
-        "runtime": {
-          "lib/monoandroid80/SQLitePCLRaw.lib.e_sqlite3.android.dll": {}
-        }
-      },
-      "SQLitePCLRaw.provider.e_sqlite3/2.0.4": {
-        "type": "package",
-        "dependencies": {
-          "SQLitePCLRaw.core": "2.0.4"
-        },
-        "compile": {
-          "lib/netstandard2.0/SQLitePCLRaw.provider.e_sqlite3.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/SQLitePCLRaw.provider.e_sqlite3.dll": {}
-        }
-      },
-      "System.Buffers/4.4.0": {
-        "type": "package",
-        "compile": {
-          "ref/netcoreapp2.0/_._": {}
-        },
-        "runtime": {
-          "lib/netcoreapp2.0/_._": {}
-        }
-      },
-      "System.Memory/4.5.3": {
-        "type": "package",
-        "dependencies": {
-          "System.Buffers": "4.4.0",
-          "System.Runtime.CompilerServices.Unsafe": "4.5.2"
-        },
-        "compile": {
-          "ref/netcoreapp2.1/_._": {}
-        },
-        "runtime": {
-          "lib/netcoreapp2.1/_._": {}
-        }
-      },
-      "System.Runtime.CompilerServices.Unsafe/4.5.2": {
-        "type": "package",
-        "compile": {
-          "ref/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/netcoreapp2.0/System.Runtime.CompilerServices.Unsafe.dll": {
-            "related": ".xml"
-          }
         }
       },
       "Xamarin.Android.Glide/4.15.1.2": {
@@ -2091,13 +1959,6 @@
           "buildTransitive/net6.0-android31.0/Xamarin.AndroidX.Window.Extensions.Core.Core.targets": {}
         }
       },
-      "Xamarin.Build.Download/0.11.4": {
-        "type": "package",
-        "build": {
-          "buildTransitive/Xamarin.Build.Download.props": {},
-          "buildTransitive/Xamarin.Build.Download.targets": {}
-        }
-      },
       "Xamarin.Google.Android.Material/1.9.0.2": {
         "type": "package",
         "dependencies": {
@@ -2191,94 +2052,6 @@
         },
         "build": {
           "buildTransitive/net6.0-android31.0/Xamarin.Google.Guava.ListenableFuture.targets": {}
-        }
-      },
-      "Xamarin.GooglePlayServices.Base/118.2.0.2": {
-        "type": "package",
-        "dependencies": {
-          "Xamarin.AndroidX.Collection": "1.2.0.8",
-          "Xamarin.AndroidX.Core": "1.10.1.1",
-          "Xamarin.AndroidX.Fragment": "1.6.0",
-          "Xamarin.Build.Download": "0.11.4",
-          "Xamarin.GooglePlayServices.Basement": "118.2.0.2",
-          "Xamarin.GooglePlayServices.Tasks": "118.0.2.3"
-        },
-        "compile": {
-          "lib/net6.0-android31.0/Xamarin.GooglePlayServices.Base.dll": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "runtime": {
-          "lib/net6.0-android31.0/Xamarin.GooglePlayServices.Base.dll": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "build": {
-          "buildTransitive/net6.0-android31.0/Xamarin.GooglePlayServices.Base.targets": {}
-        }
-      },
-      "Xamarin.GooglePlayServices.Basement/118.2.0.2": {
-        "type": "package",
-        "dependencies": {
-          "Xamarin.AndroidX.Collection": "1.2.0.8",
-          "Xamarin.AndroidX.Core": "1.10.1.1",
-          "Xamarin.AndroidX.Fragment": "1.6.0",
-          "Xamarin.Build.Download": "0.11.4"
-        },
-        "compile": {
-          "lib/net6.0-android31.0/Xamarin.GooglePlayServices.Basement.dll": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "runtime": {
-          "lib/net6.0-android31.0/Xamarin.GooglePlayServices.Basement.dll": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "build": {
-          "buildTransitive/net6.0-android31.0/Xamarin.GooglePlayServices.Basement.targets": {}
-        }
-      },
-      "Xamarin.GooglePlayServices.Maps/118.1.0.3": {
-        "type": "package",
-        "dependencies": {
-          "Xamarin.AndroidX.Fragment": "1.6.0",
-          "Xamarin.Build.Download": "0.11.4",
-          "Xamarin.GooglePlayServices.Base": "118.2.0.2",
-          "Xamarin.GooglePlayServices.Basement": "118.2.0.2"
-        },
-        "compile": {
-          "lib/net6.0-android31.0/Xamarin.GooglePlayServices.Maps.dll": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "runtime": {
-          "lib/net6.0-android31.0/Xamarin.GooglePlayServices.Maps.dll": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "build": {
-          "buildTransitive/net6.0-android31.0/Xamarin.GooglePlayServices.Maps.targets": {}
-        }
-      },
-      "Xamarin.GooglePlayServices.Tasks/118.0.2.3": {
-        "type": "package",
-        "dependencies": {
-          "Xamarin.Build.Download": "0.11.4",
-          "Xamarin.GooglePlayServices.Basement": "118.2.0.2"
-        },
-        "compile": {
-          "lib/net6.0-android31.0/Xamarin.GooglePlayServices.Tasks.dll": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "runtime": {
-          "lib/net6.0-android31.0/Xamarin.GooglePlayServices.Tasks.dll": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "build": {
-          "buildTransitive/net6.0-android31.0/Xamarin.GooglePlayServices.Tasks.targets": {}
         }
       },
       "Xamarin.Jetbrains.Annotations/24.0.1.3": {
@@ -2741,22 +2514,6 @@
           }
         }
       },
-      "Microsoft.Maui.Controls.Maps/8.0.3": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.Maui.Maps": "8.0.3"
-        },
-        "compile": {
-          "lib/net8.0-android34.0/Microsoft.Maui.Controls.Maps.dll": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "runtime": {
-          "lib/net8.0-android34.0/Microsoft.Maui.Controls.Maps.dll": {
-            "related": ".pdb;.xml"
-          }
-        }
-      },
       "Microsoft.Maui.Controls.Xaml/8.0.100": {
         "type": "package",
         "dependencies": {
@@ -2840,22 +2597,6 @@
           }
         }
       },
-      "Microsoft.Maui.Maps/8.0.3": {
-        "type": "package",
-        "dependencies": {
-          "Xamarin.GooglePlayServices.Maps": "118.1.0.3"
-        },
-        "compile": {
-          "lib/net8.0-android34.0/Microsoft.Maui.Maps.dll": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "runtime": {
-          "lib/net8.0-android34.0/Microsoft.Maui.Maps.dll": {
-            "related": ".pdb;.xml"
-          }
-        }
-      },
       "Microsoft.Maui.Resizetizer/8.0.100": {
         "type": "package",
         "build": {
@@ -2867,106 +2608,6 @@
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
-        }
-      },
-      "sqlite-net-pcl/1.8.116": {
-        "type": "package",
-        "dependencies": {
-          "SQLitePCLRaw.bundle_green": "2.0.4"
-        },
-        "compile": {
-          "lib/netstandard2.0/SQLite-net.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/netstandard2.0/SQLite-net.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "SQLitePCLRaw.bundle_green/2.0.4": {
-        "type": "package",
-        "dependencies": {
-          "SQLitePCLRaw.core": "2.0.4",
-          "SQLitePCLRaw.lib.e_sqlite3.android": "2.0.4",
-          "SQLitePCLRaw.provider.e_sqlite3": "2.0.4"
-        },
-        "compile": {
-          "lib/netcoreapp3.1/SQLitePCLRaw.batteries_v2.dll": {},
-          "lib/netcoreapp3.1/SQLitePCLRaw.nativelibrary.dll": {}
-        },
-        "runtime": {
-          "lib/netcoreapp3.1/SQLitePCLRaw.batteries_v2.dll": {},
-          "lib/netcoreapp3.1/SQLitePCLRaw.nativelibrary.dll": {}
-        }
-      },
-      "SQLitePCLRaw.core/2.0.4": {
-        "type": "package",
-        "dependencies": {
-          "System.Memory": "4.5.3"
-        },
-        "compile": {
-          "lib/netstandard2.0/SQLitePCLRaw.core.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/SQLitePCLRaw.core.dll": {}
-        }
-      },
-      "SQLitePCLRaw.lib.e_sqlite3.android/2.0.4": {
-        "type": "package",
-        "compile": {
-          "lib/monoandroid80/SQLitePCLRaw.lib.e_sqlite3.android.dll": {}
-        },
-        "runtime": {
-          "lib/monoandroid80/SQLitePCLRaw.lib.e_sqlite3.android.dll": {}
-        }
-      },
-      "SQLitePCLRaw.provider.e_sqlite3/2.0.4": {
-        "type": "package",
-        "dependencies": {
-          "SQLitePCLRaw.core": "2.0.4"
-        },
-        "compile": {
-          "lib/netstandard2.0/SQLitePCLRaw.provider.e_sqlite3.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/SQLitePCLRaw.provider.e_sqlite3.dll": {}
-        }
-      },
-      "System.Buffers/4.4.0": {
-        "type": "package",
-        "compile": {
-          "ref/netcoreapp2.0/_._": {}
-        },
-        "runtime": {
-          "lib/netcoreapp2.0/_._": {}
-        }
-      },
-      "System.Memory/4.5.3": {
-        "type": "package",
-        "dependencies": {
-          "System.Buffers": "4.4.0",
-          "System.Runtime.CompilerServices.Unsafe": "4.5.2"
-        },
-        "compile": {
-          "ref/netcoreapp2.1/_._": {}
-        },
-        "runtime": {
-          "lib/netcoreapp2.1/_._": {}
-        }
-      },
-      "System.Runtime.CompilerServices.Unsafe/4.5.2": {
-        "type": "package",
-        "compile": {
-          "ref/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/netcoreapp2.0/System.Runtime.CompilerServices.Unsafe.dll": {
-            "related": ".xml"
-          }
         }
       },
       "Xamarin.Android.Glide/4.15.1.2": {
@@ -4504,13 +4145,6 @@
           "buildTransitive/net6.0-android31.0/Xamarin.AndroidX.Window.Extensions.Core.Core.targets": {}
         }
       },
-      "Xamarin.Build.Download/0.11.4": {
-        "type": "package",
-        "build": {
-          "buildTransitive/Xamarin.Build.Download.props": {},
-          "buildTransitive/Xamarin.Build.Download.targets": {}
-        }
-      },
       "Xamarin.Google.Android.Material/1.9.0.2": {
         "type": "package",
         "dependencies": {
@@ -4604,94 +4238,6 @@
         },
         "build": {
           "buildTransitive/net6.0-android31.0/Xamarin.Google.Guava.ListenableFuture.targets": {}
-        }
-      },
-      "Xamarin.GooglePlayServices.Base/118.2.0.2": {
-        "type": "package",
-        "dependencies": {
-          "Xamarin.AndroidX.Collection": "1.2.0.8",
-          "Xamarin.AndroidX.Core": "1.10.1.1",
-          "Xamarin.AndroidX.Fragment": "1.6.0",
-          "Xamarin.Build.Download": "0.11.4",
-          "Xamarin.GooglePlayServices.Basement": "118.2.0.2",
-          "Xamarin.GooglePlayServices.Tasks": "118.0.2.3"
-        },
-        "compile": {
-          "lib/net6.0-android31.0/Xamarin.GooglePlayServices.Base.dll": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "runtime": {
-          "lib/net6.0-android31.0/Xamarin.GooglePlayServices.Base.dll": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "build": {
-          "buildTransitive/net6.0-android31.0/Xamarin.GooglePlayServices.Base.targets": {}
-        }
-      },
-      "Xamarin.GooglePlayServices.Basement/118.2.0.2": {
-        "type": "package",
-        "dependencies": {
-          "Xamarin.AndroidX.Collection": "1.2.0.8",
-          "Xamarin.AndroidX.Core": "1.10.1.1",
-          "Xamarin.AndroidX.Fragment": "1.6.0",
-          "Xamarin.Build.Download": "0.11.4"
-        },
-        "compile": {
-          "lib/net6.0-android31.0/Xamarin.GooglePlayServices.Basement.dll": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "runtime": {
-          "lib/net6.0-android31.0/Xamarin.GooglePlayServices.Basement.dll": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "build": {
-          "buildTransitive/net6.0-android31.0/Xamarin.GooglePlayServices.Basement.targets": {}
-        }
-      },
-      "Xamarin.GooglePlayServices.Maps/118.1.0.3": {
-        "type": "package",
-        "dependencies": {
-          "Xamarin.AndroidX.Fragment": "1.6.0",
-          "Xamarin.Build.Download": "0.11.4",
-          "Xamarin.GooglePlayServices.Base": "118.2.0.2",
-          "Xamarin.GooglePlayServices.Basement": "118.2.0.2"
-        },
-        "compile": {
-          "lib/net6.0-android31.0/Xamarin.GooglePlayServices.Maps.dll": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "runtime": {
-          "lib/net6.0-android31.0/Xamarin.GooglePlayServices.Maps.dll": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "build": {
-          "buildTransitive/net6.0-android31.0/Xamarin.GooglePlayServices.Maps.targets": {}
-        }
-      },
-      "Xamarin.GooglePlayServices.Tasks/118.0.2.3": {
-        "type": "package",
-        "dependencies": {
-          "Xamarin.Build.Download": "0.11.4",
-          "Xamarin.GooglePlayServices.Basement": "118.2.0.2"
-        },
-        "compile": {
-          "lib/net6.0-android31.0/Xamarin.GooglePlayServices.Tasks.dll": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "runtime": {
-          "lib/net6.0-android31.0/Xamarin.GooglePlayServices.Tasks.dll": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "build": {
-          "buildTransitive/net6.0-android31.0/Xamarin.GooglePlayServices.Tasks.targets": {}
         }
       },
       "Xamarin.Jetbrains.Annotations/24.0.1.3": {
@@ -5154,22 +4700,6 @@
           }
         }
       },
-      "Microsoft.Maui.Controls.Maps/8.0.3": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.Maui.Maps": "8.0.3"
-        },
-        "compile": {
-          "lib/net8.0-android34.0/Microsoft.Maui.Controls.Maps.dll": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "runtime": {
-          "lib/net8.0-android34.0/Microsoft.Maui.Controls.Maps.dll": {
-            "related": ".pdb;.xml"
-          }
-        }
-      },
       "Microsoft.Maui.Controls.Xaml/8.0.100": {
         "type": "package",
         "dependencies": {
@@ -5253,22 +4783,6 @@
           }
         }
       },
-      "Microsoft.Maui.Maps/8.0.3": {
-        "type": "package",
-        "dependencies": {
-          "Xamarin.GooglePlayServices.Maps": "118.1.0.3"
-        },
-        "compile": {
-          "lib/net8.0-android34.0/Microsoft.Maui.Maps.dll": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "runtime": {
-          "lib/net8.0-android34.0/Microsoft.Maui.Maps.dll": {
-            "related": ".pdb;.xml"
-          }
-        }
-      },
       "Microsoft.Maui.Resizetizer/8.0.100": {
         "type": "package",
         "build": {
@@ -5280,106 +4794,6 @@
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
-        }
-      },
-      "sqlite-net-pcl/1.8.116": {
-        "type": "package",
-        "dependencies": {
-          "SQLitePCLRaw.bundle_green": "2.0.4"
-        },
-        "compile": {
-          "lib/netstandard2.0/SQLite-net.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/netstandard2.0/SQLite-net.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "SQLitePCLRaw.bundle_green/2.0.4": {
-        "type": "package",
-        "dependencies": {
-          "SQLitePCLRaw.core": "2.0.4",
-          "SQLitePCLRaw.lib.e_sqlite3.android": "2.0.4",
-          "SQLitePCLRaw.provider.e_sqlite3": "2.0.4"
-        },
-        "compile": {
-          "lib/netcoreapp3.1/SQLitePCLRaw.batteries_v2.dll": {},
-          "lib/netcoreapp3.1/SQLitePCLRaw.nativelibrary.dll": {}
-        },
-        "runtime": {
-          "lib/netcoreapp3.1/SQLitePCLRaw.batteries_v2.dll": {},
-          "lib/netcoreapp3.1/SQLitePCLRaw.nativelibrary.dll": {}
-        }
-      },
-      "SQLitePCLRaw.core/2.0.4": {
-        "type": "package",
-        "dependencies": {
-          "System.Memory": "4.5.3"
-        },
-        "compile": {
-          "lib/netstandard2.0/SQLitePCLRaw.core.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/SQLitePCLRaw.core.dll": {}
-        }
-      },
-      "SQLitePCLRaw.lib.e_sqlite3.android/2.0.4": {
-        "type": "package",
-        "compile": {
-          "lib/monoandroid80/SQLitePCLRaw.lib.e_sqlite3.android.dll": {}
-        },
-        "runtime": {
-          "lib/monoandroid80/SQLitePCLRaw.lib.e_sqlite3.android.dll": {}
-        }
-      },
-      "SQLitePCLRaw.provider.e_sqlite3/2.0.4": {
-        "type": "package",
-        "dependencies": {
-          "SQLitePCLRaw.core": "2.0.4"
-        },
-        "compile": {
-          "lib/netstandard2.0/SQLitePCLRaw.provider.e_sqlite3.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/SQLitePCLRaw.provider.e_sqlite3.dll": {}
-        }
-      },
-      "System.Buffers/4.4.0": {
-        "type": "package",
-        "compile": {
-          "ref/netcoreapp2.0/_._": {}
-        },
-        "runtime": {
-          "lib/netcoreapp2.0/_._": {}
-        }
-      },
-      "System.Memory/4.5.3": {
-        "type": "package",
-        "dependencies": {
-          "System.Buffers": "4.4.0",
-          "System.Runtime.CompilerServices.Unsafe": "4.5.2"
-        },
-        "compile": {
-          "ref/netcoreapp2.1/_._": {}
-        },
-        "runtime": {
-          "lib/netcoreapp2.1/_._": {}
-        }
-      },
-      "System.Runtime.CompilerServices.Unsafe/4.5.2": {
-        "type": "package",
-        "compile": {
-          "ref/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/netcoreapp2.0/System.Runtime.CompilerServices.Unsafe.dll": {
-            "related": ".xml"
-          }
         }
       },
       "Xamarin.Android.Glide/4.15.1.2": {
@@ -6917,13 +6331,6 @@
           "buildTransitive/net6.0-android31.0/Xamarin.AndroidX.Window.Extensions.Core.Core.targets": {}
         }
       },
-      "Xamarin.Build.Download/0.11.4": {
-        "type": "package",
-        "build": {
-          "buildTransitive/Xamarin.Build.Download.props": {},
-          "buildTransitive/Xamarin.Build.Download.targets": {}
-        }
-      },
       "Xamarin.Google.Android.Material/1.9.0.2": {
         "type": "package",
         "dependencies": {
@@ -7017,94 +6424,6 @@
         },
         "build": {
           "buildTransitive/net6.0-android31.0/Xamarin.Google.Guava.ListenableFuture.targets": {}
-        }
-      },
-      "Xamarin.GooglePlayServices.Base/118.2.0.2": {
-        "type": "package",
-        "dependencies": {
-          "Xamarin.AndroidX.Collection": "1.2.0.8",
-          "Xamarin.AndroidX.Core": "1.10.1.1",
-          "Xamarin.AndroidX.Fragment": "1.6.0",
-          "Xamarin.Build.Download": "0.11.4",
-          "Xamarin.GooglePlayServices.Basement": "118.2.0.2",
-          "Xamarin.GooglePlayServices.Tasks": "118.0.2.3"
-        },
-        "compile": {
-          "lib/net6.0-android31.0/Xamarin.GooglePlayServices.Base.dll": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "runtime": {
-          "lib/net6.0-android31.0/Xamarin.GooglePlayServices.Base.dll": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "build": {
-          "buildTransitive/net6.0-android31.0/Xamarin.GooglePlayServices.Base.targets": {}
-        }
-      },
-      "Xamarin.GooglePlayServices.Basement/118.2.0.2": {
-        "type": "package",
-        "dependencies": {
-          "Xamarin.AndroidX.Collection": "1.2.0.8",
-          "Xamarin.AndroidX.Core": "1.10.1.1",
-          "Xamarin.AndroidX.Fragment": "1.6.0",
-          "Xamarin.Build.Download": "0.11.4"
-        },
-        "compile": {
-          "lib/net6.0-android31.0/Xamarin.GooglePlayServices.Basement.dll": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "runtime": {
-          "lib/net6.0-android31.0/Xamarin.GooglePlayServices.Basement.dll": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "build": {
-          "buildTransitive/net6.0-android31.0/Xamarin.GooglePlayServices.Basement.targets": {}
-        }
-      },
-      "Xamarin.GooglePlayServices.Maps/118.1.0.3": {
-        "type": "package",
-        "dependencies": {
-          "Xamarin.AndroidX.Fragment": "1.6.0",
-          "Xamarin.Build.Download": "0.11.4",
-          "Xamarin.GooglePlayServices.Base": "118.2.0.2",
-          "Xamarin.GooglePlayServices.Basement": "118.2.0.2"
-        },
-        "compile": {
-          "lib/net6.0-android31.0/Xamarin.GooglePlayServices.Maps.dll": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "runtime": {
-          "lib/net6.0-android31.0/Xamarin.GooglePlayServices.Maps.dll": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "build": {
-          "buildTransitive/net6.0-android31.0/Xamarin.GooglePlayServices.Maps.targets": {}
-        }
-      },
-      "Xamarin.GooglePlayServices.Tasks/118.0.2.3": {
-        "type": "package",
-        "dependencies": {
-          "Xamarin.Build.Download": "0.11.4",
-          "Xamarin.GooglePlayServices.Basement": "118.2.0.2"
-        },
-        "compile": {
-          "lib/net6.0-android31.0/Xamarin.GooglePlayServices.Tasks.dll": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "runtime": {
-          "lib/net6.0-android31.0/Xamarin.GooglePlayServices.Tasks.dll": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "build": {
-          "buildTransitive/net6.0-android31.0/Xamarin.GooglePlayServices.Tasks.targets": {}
         }
       },
       "Xamarin.Jetbrains.Annotations/24.0.1.3": {
@@ -7567,22 +6886,6 @@
           }
         }
       },
-      "Microsoft.Maui.Controls.Maps/8.0.3": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.Maui.Maps": "8.0.3"
-        },
-        "compile": {
-          "lib/net8.0-android34.0/Microsoft.Maui.Controls.Maps.dll": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "runtime": {
-          "lib/net8.0-android34.0/Microsoft.Maui.Controls.Maps.dll": {
-            "related": ".pdb;.xml"
-          }
-        }
-      },
       "Microsoft.Maui.Controls.Xaml/8.0.100": {
         "type": "package",
         "dependencies": {
@@ -7666,22 +6969,6 @@
           }
         }
       },
-      "Microsoft.Maui.Maps/8.0.3": {
-        "type": "package",
-        "dependencies": {
-          "Xamarin.GooglePlayServices.Maps": "118.1.0.3"
-        },
-        "compile": {
-          "lib/net8.0-android34.0/Microsoft.Maui.Maps.dll": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "runtime": {
-          "lib/net8.0-android34.0/Microsoft.Maui.Maps.dll": {
-            "related": ".pdb;.xml"
-          }
-        }
-      },
       "Microsoft.Maui.Resizetizer/8.0.100": {
         "type": "package",
         "build": {
@@ -7693,106 +6980,6 @@
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
-        }
-      },
-      "sqlite-net-pcl/1.8.116": {
-        "type": "package",
-        "dependencies": {
-          "SQLitePCLRaw.bundle_green": "2.0.4"
-        },
-        "compile": {
-          "lib/netstandard2.0/SQLite-net.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/netstandard2.0/SQLite-net.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "SQLitePCLRaw.bundle_green/2.0.4": {
-        "type": "package",
-        "dependencies": {
-          "SQLitePCLRaw.core": "2.0.4",
-          "SQLitePCLRaw.lib.e_sqlite3.android": "2.0.4",
-          "SQLitePCLRaw.provider.e_sqlite3": "2.0.4"
-        },
-        "compile": {
-          "lib/netcoreapp3.1/SQLitePCLRaw.batteries_v2.dll": {},
-          "lib/netcoreapp3.1/SQLitePCLRaw.nativelibrary.dll": {}
-        },
-        "runtime": {
-          "lib/netcoreapp3.1/SQLitePCLRaw.batteries_v2.dll": {},
-          "lib/netcoreapp3.1/SQLitePCLRaw.nativelibrary.dll": {}
-        }
-      },
-      "SQLitePCLRaw.core/2.0.4": {
-        "type": "package",
-        "dependencies": {
-          "System.Memory": "4.5.3"
-        },
-        "compile": {
-          "lib/netstandard2.0/SQLitePCLRaw.core.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/SQLitePCLRaw.core.dll": {}
-        }
-      },
-      "SQLitePCLRaw.lib.e_sqlite3.android/2.0.4": {
-        "type": "package",
-        "compile": {
-          "lib/monoandroid80/SQLitePCLRaw.lib.e_sqlite3.android.dll": {}
-        },
-        "runtime": {
-          "lib/monoandroid80/SQLitePCLRaw.lib.e_sqlite3.android.dll": {}
-        }
-      },
-      "SQLitePCLRaw.provider.e_sqlite3/2.0.4": {
-        "type": "package",
-        "dependencies": {
-          "SQLitePCLRaw.core": "2.0.4"
-        },
-        "compile": {
-          "lib/netstandard2.0/SQLitePCLRaw.provider.e_sqlite3.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/SQLitePCLRaw.provider.e_sqlite3.dll": {}
-        }
-      },
-      "System.Buffers/4.4.0": {
-        "type": "package",
-        "compile": {
-          "ref/netcoreapp2.0/_._": {}
-        },
-        "runtime": {
-          "lib/netcoreapp2.0/_._": {}
-        }
-      },
-      "System.Memory/4.5.3": {
-        "type": "package",
-        "dependencies": {
-          "System.Buffers": "4.4.0",
-          "System.Runtime.CompilerServices.Unsafe": "4.5.2"
-        },
-        "compile": {
-          "ref/netcoreapp2.1/_._": {}
-        },
-        "runtime": {
-          "lib/netcoreapp2.1/_._": {}
-        }
-      },
-      "System.Runtime.CompilerServices.Unsafe/4.5.2": {
-        "type": "package",
-        "compile": {
-          "ref/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/netcoreapp2.0/System.Runtime.CompilerServices.Unsafe.dll": {
-            "related": ".xml"
-          }
         }
       },
       "Xamarin.Android.Glide/4.15.1.2": {
@@ -9330,13 +8517,6 @@
           "buildTransitive/net6.0-android31.0/Xamarin.AndroidX.Window.Extensions.Core.Core.targets": {}
         }
       },
-      "Xamarin.Build.Download/0.11.4": {
-        "type": "package",
-        "build": {
-          "buildTransitive/Xamarin.Build.Download.props": {},
-          "buildTransitive/Xamarin.Build.Download.targets": {}
-        }
-      },
       "Xamarin.Google.Android.Material/1.9.0.2": {
         "type": "package",
         "dependencies": {
@@ -9430,94 +8610,6 @@
         },
         "build": {
           "buildTransitive/net6.0-android31.0/Xamarin.Google.Guava.ListenableFuture.targets": {}
-        }
-      },
-      "Xamarin.GooglePlayServices.Base/118.2.0.2": {
-        "type": "package",
-        "dependencies": {
-          "Xamarin.AndroidX.Collection": "1.2.0.8",
-          "Xamarin.AndroidX.Core": "1.10.1.1",
-          "Xamarin.AndroidX.Fragment": "1.6.0",
-          "Xamarin.Build.Download": "0.11.4",
-          "Xamarin.GooglePlayServices.Basement": "118.2.0.2",
-          "Xamarin.GooglePlayServices.Tasks": "118.0.2.3"
-        },
-        "compile": {
-          "lib/net6.0-android31.0/Xamarin.GooglePlayServices.Base.dll": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "runtime": {
-          "lib/net6.0-android31.0/Xamarin.GooglePlayServices.Base.dll": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "build": {
-          "buildTransitive/net6.0-android31.0/Xamarin.GooglePlayServices.Base.targets": {}
-        }
-      },
-      "Xamarin.GooglePlayServices.Basement/118.2.0.2": {
-        "type": "package",
-        "dependencies": {
-          "Xamarin.AndroidX.Collection": "1.2.0.8",
-          "Xamarin.AndroidX.Core": "1.10.1.1",
-          "Xamarin.AndroidX.Fragment": "1.6.0",
-          "Xamarin.Build.Download": "0.11.4"
-        },
-        "compile": {
-          "lib/net6.0-android31.0/Xamarin.GooglePlayServices.Basement.dll": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "runtime": {
-          "lib/net6.0-android31.0/Xamarin.GooglePlayServices.Basement.dll": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "build": {
-          "buildTransitive/net6.0-android31.0/Xamarin.GooglePlayServices.Basement.targets": {}
-        }
-      },
-      "Xamarin.GooglePlayServices.Maps/118.1.0.3": {
-        "type": "package",
-        "dependencies": {
-          "Xamarin.AndroidX.Fragment": "1.6.0",
-          "Xamarin.Build.Download": "0.11.4",
-          "Xamarin.GooglePlayServices.Base": "118.2.0.2",
-          "Xamarin.GooglePlayServices.Basement": "118.2.0.2"
-        },
-        "compile": {
-          "lib/net6.0-android31.0/Xamarin.GooglePlayServices.Maps.dll": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "runtime": {
-          "lib/net6.0-android31.0/Xamarin.GooglePlayServices.Maps.dll": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "build": {
-          "buildTransitive/net6.0-android31.0/Xamarin.GooglePlayServices.Maps.targets": {}
-        }
-      },
-      "Xamarin.GooglePlayServices.Tasks/118.0.2.3": {
-        "type": "package",
-        "dependencies": {
-          "Xamarin.Build.Download": "0.11.4",
-          "Xamarin.GooglePlayServices.Basement": "118.2.0.2"
-        },
-        "compile": {
-          "lib/net6.0-android31.0/Xamarin.GooglePlayServices.Tasks.dll": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "runtime": {
-          "lib/net6.0-android31.0/Xamarin.GooglePlayServices.Tasks.dll": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "build": {
-          "buildTransitive/net6.0-android31.0/Xamarin.GooglePlayServices.Tasks.targets": {}
         }
       },
       "Xamarin.Jetbrains.Annotations/24.0.1.3": {
@@ -9980,22 +9072,6 @@
           }
         }
       },
-      "Microsoft.Maui.Controls.Maps/8.0.3": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.Maui.Maps": "8.0.3"
-        },
-        "compile": {
-          "lib/net8.0-android34.0/Microsoft.Maui.Controls.Maps.dll": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "runtime": {
-          "lib/net8.0-android34.0/Microsoft.Maui.Controls.Maps.dll": {
-            "related": ".pdb;.xml"
-          }
-        }
-      },
       "Microsoft.Maui.Controls.Xaml/8.0.100": {
         "type": "package",
         "dependencies": {
@@ -10079,22 +9155,6 @@
           }
         }
       },
-      "Microsoft.Maui.Maps/8.0.3": {
-        "type": "package",
-        "dependencies": {
-          "Xamarin.GooglePlayServices.Maps": "118.1.0.3"
-        },
-        "compile": {
-          "lib/net8.0-android34.0/Microsoft.Maui.Maps.dll": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "runtime": {
-          "lib/net8.0-android34.0/Microsoft.Maui.Maps.dll": {
-            "related": ".pdb;.xml"
-          }
-        }
-      },
       "Microsoft.Maui.Resizetizer/8.0.100": {
         "type": "package",
         "build": {
@@ -10106,106 +9166,6 @@
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
-        }
-      },
-      "sqlite-net-pcl/1.8.116": {
-        "type": "package",
-        "dependencies": {
-          "SQLitePCLRaw.bundle_green": "2.0.4"
-        },
-        "compile": {
-          "lib/netstandard2.0/SQLite-net.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/netstandard2.0/SQLite-net.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "SQLitePCLRaw.bundle_green/2.0.4": {
-        "type": "package",
-        "dependencies": {
-          "SQLitePCLRaw.core": "2.0.4",
-          "SQLitePCLRaw.lib.e_sqlite3.android": "2.0.4",
-          "SQLitePCLRaw.provider.e_sqlite3": "2.0.4"
-        },
-        "compile": {
-          "lib/netcoreapp3.1/SQLitePCLRaw.batteries_v2.dll": {},
-          "lib/netcoreapp3.1/SQLitePCLRaw.nativelibrary.dll": {}
-        },
-        "runtime": {
-          "lib/netcoreapp3.1/SQLitePCLRaw.batteries_v2.dll": {},
-          "lib/netcoreapp3.1/SQLitePCLRaw.nativelibrary.dll": {}
-        }
-      },
-      "SQLitePCLRaw.core/2.0.4": {
-        "type": "package",
-        "dependencies": {
-          "System.Memory": "4.5.3"
-        },
-        "compile": {
-          "lib/netstandard2.0/SQLitePCLRaw.core.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/SQLitePCLRaw.core.dll": {}
-        }
-      },
-      "SQLitePCLRaw.lib.e_sqlite3.android/2.0.4": {
-        "type": "package",
-        "compile": {
-          "lib/monoandroid80/SQLitePCLRaw.lib.e_sqlite3.android.dll": {}
-        },
-        "runtime": {
-          "lib/monoandroid80/SQLitePCLRaw.lib.e_sqlite3.android.dll": {}
-        }
-      },
-      "SQLitePCLRaw.provider.e_sqlite3/2.0.4": {
-        "type": "package",
-        "dependencies": {
-          "SQLitePCLRaw.core": "2.0.4"
-        },
-        "compile": {
-          "lib/netstandard2.0/SQLitePCLRaw.provider.e_sqlite3.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/SQLitePCLRaw.provider.e_sqlite3.dll": {}
-        }
-      },
-      "System.Buffers/4.4.0": {
-        "type": "package",
-        "compile": {
-          "ref/netcoreapp2.0/_._": {}
-        },
-        "runtime": {
-          "lib/netcoreapp2.0/_._": {}
-        }
-      },
-      "System.Memory/4.5.3": {
-        "type": "package",
-        "dependencies": {
-          "System.Buffers": "4.4.0",
-          "System.Runtime.CompilerServices.Unsafe": "4.5.2"
-        },
-        "compile": {
-          "ref/netcoreapp2.1/_._": {}
-        },
-        "runtime": {
-          "lib/netcoreapp2.1/_._": {}
-        }
-      },
-      "System.Runtime.CompilerServices.Unsafe/4.5.2": {
-        "type": "package",
-        "compile": {
-          "ref/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/netcoreapp2.0/System.Runtime.CompilerServices.Unsafe.dll": {
-            "related": ".xml"
-          }
         }
       },
       "Xamarin.Android.Glide/4.15.1.2": {
@@ -11743,13 +10703,6 @@
           "buildTransitive/net6.0-android31.0/Xamarin.AndroidX.Window.Extensions.Core.Core.targets": {}
         }
       },
-      "Xamarin.Build.Download/0.11.4": {
-        "type": "package",
-        "build": {
-          "buildTransitive/Xamarin.Build.Download.props": {},
-          "buildTransitive/Xamarin.Build.Download.targets": {}
-        }
-      },
       "Xamarin.Google.Android.Material/1.9.0.2": {
         "type": "package",
         "dependencies": {
@@ -11843,94 +10796,6 @@
         },
         "build": {
           "buildTransitive/net6.0-android31.0/Xamarin.Google.Guava.ListenableFuture.targets": {}
-        }
-      },
-      "Xamarin.GooglePlayServices.Base/118.2.0.2": {
-        "type": "package",
-        "dependencies": {
-          "Xamarin.AndroidX.Collection": "1.2.0.8",
-          "Xamarin.AndroidX.Core": "1.10.1.1",
-          "Xamarin.AndroidX.Fragment": "1.6.0",
-          "Xamarin.Build.Download": "0.11.4",
-          "Xamarin.GooglePlayServices.Basement": "118.2.0.2",
-          "Xamarin.GooglePlayServices.Tasks": "118.0.2.3"
-        },
-        "compile": {
-          "lib/net6.0-android31.0/Xamarin.GooglePlayServices.Base.dll": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "runtime": {
-          "lib/net6.0-android31.0/Xamarin.GooglePlayServices.Base.dll": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "build": {
-          "buildTransitive/net6.0-android31.0/Xamarin.GooglePlayServices.Base.targets": {}
-        }
-      },
-      "Xamarin.GooglePlayServices.Basement/118.2.0.2": {
-        "type": "package",
-        "dependencies": {
-          "Xamarin.AndroidX.Collection": "1.2.0.8",
-          "Xamarin.AndroidX.Core": "1.10.1.1",
-          "Xamarin.AndroidX.Fragment": "1.6.0",
-          "Xamarin.Build.Download": "0.11.4"
-        },
-        "compile": {
-          "lib/net6.0-android31.0/Xamarin.GooglePlayServices.Basement.dll": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "runtime": {
-          "lib/net6.0-android31.0/Xamarin.GooglePlayServices.Basement.dll": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "build": {
-          "buildTransitive/net6.0-android31.0/Xamarin.GooglePlayServices.Basement.targets": {}
-        }
-      },
-      "Xamarin.GooglePlayServices.Maps/118.1.0.3": {
-        "type": "package",
-        "dependencies": {
-          "Xamarin.AndroidX.Fragment": "1.6.0",
-          "Xamarin.Build.Download": "0.11.4",
-          "Xamarin.GooglePlayServices.Base": "118.2.0.2",
-          "Xamarin.GooglePlayServices.Basement": "118.2.0.2"
-        },
-        "compile": {
-          "lib/net6.0-android31.0/Xamarin.GooglePlayServices.Maps.dll": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "runtime": {
-          "lib/net6.0-android31.0/Xamarin.GooglePlayServices.Maps.dll": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "build": {
-          "buildTransitive/net6.0-android31.0/Xamarin.GooglePlayServices.Maps.targets": {}
-        }
-      },
-      "Xamarin.GooglePlayServices.Tasks/118.0.2.3": {
-        "type": "package",
-        "dependencies": {
-          "Xamarin.Build.Download": "0.11.4",
-          "Xamarin.GooglePlayServices.Basement": "118.2.0.2"
-        },
-        "compile": {
-          "lib/net6.0-android31.0/Xamarin.GooglePlayServices.Tasks.dll": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "runtime": {
-          "lib/net6.0-android31.0/Xamarin.GooglePlayServices.Tasks.dll": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "build": {
-          "buildTransitive/net6.0-android31.0/Xamarin.GooglePlayServices.Tasks.targets": {}
         }
       },
       "Xamarin.Jetbrains.Annotations/24.0.1.3": {
@@ -12393,22 +11258,6 @@
           }
         }
       },
-      "Microsoft.Maui.Controls.Maps/8.0.3": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.Maui.Maps": "8.0.3"
-        },
-        "compile": {
-          "lib/net8.0-android34.0/Microsoft.Maui.Controls.Maps.dll": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "runtime": {
-          "lib/net8.0-android34.0/Microsoft.Maui.Controls.Maps.dll": {
-            "related": ".pdb;.xml"
-          }
-        }
-      },
       "Microsoft.Maui.Controls.Xaml/8.0.100": {
         "type": "package",
         "dependencies": {
@@ -12492,22 +11341,6 @@
           }
         }
       },
-      "Microsoft.Maui.Maps/8.0.3": {
-        "type": "package",
-        "dependencies": {
-          "Xamarin.GooglePlayServices.Maps": "118.1.0.3"
-        },
-        "compile": {
-          "lib/net8.0-android34.0/Microsoft.Maui.Maps.dll": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "runtime": {
-          "lib/net8.0-android34.0/Microsoft.Maui.Maps.dll": {
-            "related": ".pdb;.xml"
-          }
-        }
-      },
       "Microsoft.Maui.Resizetizer/8.0.100": {
         "type": "package",
         "build": {
@@ -12519,106 +11352,6 @@
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
-        }
-      },
-      "sqlite-net-pcl/1.8.116": {
-        "type": "package",
-        "dependencies": {
-          "SQLitePCLRaw.bundle_green": "2.0.4"
-        },
-        "compile": {
-          "lib/netstandard2.0/SQLite-net.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/netstandard2.0/SQLite-net.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "SQLitePCLRaw.bundle_green/2.0.4": {
-        "type": "package",
-        "dependencies": {
-          "SQLitePCLRaw.core": "2.0.4",
-          "SQLitePCLRaw.lib.e_sqlite3.android": "2.0.4",
-          "SQLitePCLRaw.provider.e_sqlite3": "2.0.4"
-        },
-        "compile": {
-          "lib/netcoreapp3.1/SQLitePCLRaw.batteries_v2.dll": {},
-          "lib/netcoreapp3.1/SQLitePCLRaw.nativelibrary.dll": {}
-        },
-        "runtime": {
-          "lib/netcoreapp3.1/SQLitePCLRaw.batteries_v2.dll": {},
-          "lib/netcoreapp3.1/SQLitePCLRaw.nativelibrary.dll": {}
-        }
-      },
-      "SQLitePCLRaw.core/2.0.4": {
-        "type": "package",
-        "dependencies": {
-          "System.Memory": "4.5.3"
-        },
-        "compile": {
-          "lib/netstandard2.0/SQLitePCLRaw.core.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/SQLitePCLRaw.core.dll": {}
-        }
-      },
-      "SQLitePCLRaw.lib.e_sqlite3.android/2.0.4": {
-        "type": "package",
-        "compile": {
-          "lib/monoandroid80/SQLitePCLRaw.lib.e_sqlite3.android.dll": {}
-        },
-        "runtime": {
-          "lib/monoandroid80/SQLitePCLRaw.lib.e_sqlite3.android.dll": {}
-        }
-      },
-      "SQLitePCLRaw.provider.e_sqlite3/2.0.4": {
-        "type": "package",
-        "dependencies": {
-          "SQLitePCLRaw.core": "2.0.4"
-        },
-        "compile": {
-          "lib/netstandard2.0/SQLitePCLRaw.provider.e_sqlite3.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/SQLitePCLRaw.provider.e_sqlite3.dll": {}
-        }
-      },
-      "System.Buffers/4.4.0": {
-        "type": "package",
-        "compile": {
-          "ref/netcoreapp2.0/_._": {}
-        },
-        "runtime": {
-          "lib/netcoreapp2.0/_._": {}
-        }
-      },
-      "System.Memory/4.5.3": {
-        "type": "package",
-        "dependencies": {
-          "System.Buffers": "4.4.0",
-          "System.Runtime.CompilerServices.Unsafe": "4.5.2"
-        },
-        "compile": {
-          "ref/netcoreapp2.1/_._": {}
-        },
-        "runtime": {
-          "lib/netcoreapp2.1/_._": {}
-        }
-      },
-      "System.Runtime.CompilerServices.Unsafe/4.5.2": {
-        "type": "package",
-        "compile": {
-          "ref/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/netcoreapp2.0/System.Runtime.CompilerServices.Unsafe.dll": {
-            "related": ".xml"
-          }
         }
       },
       "Xamarin.Android.Glide/4.15.1.2": {
@@ -14156,13 +12889,6 @@
           "buildTransitive/net6.0-android31.0/Xamarin.AndroidX.Window.Extensions.Core.Core.targets": {}
         }
       },
-      "Xamarin.Build.Download/0.11.4": {
-        "type": "package",
-        "build": {
-          "buildTransitive/Xamarin.Build.Download.props": {},
-          "buildTransitive/Xamarin.Build.Download.targets": {}
-        }
-      },
       "Xamarin.Google.Android.Material/1.9.0.2": {
         "type": "package",
         "dependencies": {
@@ -14256,94 +12982,6 @@
         },
         "build": {
           "buildTransitive/net6.0-android31.0/Xamarin.Google.Guava.ListenableFuture.targets": {}
-        }
-      },
-      "Xamarin.GooglePlayServices.Base/118.2.0.2": {
-        "type": "package",
-        "dependencies": {
-          "Xamarin.AndroidX.Collection": "1.2.0.8",
-          "Xamarin.AndroidX.Core": "1.10.1.1",
-          "Xamarin.AndroidX.Fragment": "1.6.0",
-          "Xamarin.Build.Download": "0.11.4",
-          "Xamarin.GooglePlayServices.Basement": "118.2.0.2",
-          "Xamarin.GooglePlayServices.Tasks": "118.0.2.3"
-        },
-        "compile": {
-          "lib/net6.0-android31.0/Xamarin.GooglePlayServices.Base.dll": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "runtime": {
-          "lib/net6.0-android31.0/Xamarin.GooglePlayServices.Base.dll": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "build": {
-          "buildTransitive/net6.0-android31.0/Xamarin.GooglePlayServices.Base.targets": {}
-        }
-      },
-      "Xamarin.GooglePlayServices.Basement/118.2.0.2": {
-        "type": "package",
-        "dependencies": {
-          "Xamarin.AndroidX.Collection": "1.2.0.8",
-          "Xamarin.AndroidX.Core": "1.10.1.1",
-          "Xamarin.AndroidX.Fragment": "1.6.0",
-          "Xamarin.Build.Download": "0.11.4"
-        },
-        "compile": {
-          "lib/net6.0-android31.0/Xamarin.GooglePlayServices.Basement.dll": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "runtime": {
-          "lib/net6.0-android31.0/Xamarin.GooglePlayServices.Basement.dll": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "build": {
-          "buildTransitive/net6.0-android31.0/Xamarin.GooglePlayServices.Basement.targets": {}
-        }
-      },
-      "Xamarin.GooglePlayServices.Maps/118.1.0.3": {
-        "type": "package",
-        "dependencies": {
-          "Xamarin.AndroidX.Fragment": "1.6.0",
-          "Xamarin.Build.Download": "0.11.4",
-          "Xamarin.GooglePlayServices.Base": "118.2.0.2",
-          "Xamarin.GooglePlayServices.Basement": "118.2.0.2"
-        },
-        "compile": {
-          "lib/net6.0-android31.0/Xamarin.GooglePlayServices.Maps.dll": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "runtime": {
-          "lib/net6.0-android31.0/Xamarin.GooglePlayServices.Maps.dll": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "build": {
-          "buildTransitive/net6.0-android31.0/Xamarin.GooglePlayServices.Maps.targets": {}
-        }
-      },
-      "Xamarin.GooglePlayServices.Tasks/118.0.2.3": {
-        "type": "package",
-        "dependencies": {
-          "Xamarin.Build.Download": "0.11.4",
-          "Xamarin.GooglePlayServices.Basement": "118.2.0.2"
-        },
-        "compile": {
-          "lib/net6.0-android31.0/Xamarin.GooglePlayServices.Tasks.dll": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "runtime": {
-          "lib/net6.0-android31.0/Xamarin.GooglePlayServices.Tasks.dll": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "build": {
-          "buildTransitive/net6.0-android31.0/Xamarin.GooglePlayServices.Tasks.targets": {}
         }
       },
       "Xamarin.Jetbrains.Annotations/24.0.1.3": {
@@ -14806,22 +13444,6 @@
           }
         }
       },
-      "Microsoft.Maui.Controls.Maps/8.0.3": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.Maui.Maps": "8.0.3"
-        },
-        "compile": {
-          "lib/net8.0-android34.0/Microsoft.Maui.Controls.Maps.dll": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "runtime": {
-          "lib/net8.0-android34.0/Microsoft.Maui.Controls.Maps.dll": {
-            "related": ".pdb;.xml"
-          }
-        }
-      },
       "Microsoft.Maui.Controls.Xaml/8.0.100": {
         "type": "package",
         "dependencies": {
@@ -14905,22 +13527,6 @@
           }
         }
       },
-      "Microsoft.Maui.Maps/8.0.3": {
-        "type": "package",
-        "dependencies": {
-          "Xamarin.GooglePlayServices.Maps": "118.1.0.3"
-        },
-        "compile": {
-          "lib/net8.0-android34.0/Microsoft.Maui.Maps.dll": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "runtime": {
-          "lib/net8.0-android34.0/Microsoft.Maui.Maps.dll": {
-            "related": ".pdb;.xml"
-          }
-        }
-      },
       "Microsoft.Maui.Resizetizer/8.0.100": {
         "type": "package",
         "build": {
@@ -14932,106 +13538,6 @@
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
-        }
-      },
-      "sqlite-net-pcl/1.8.116": {
-        "type": "package",
-        "dependencies": {
-          "SQLitePCLRaw.bundle_green": "2.0.4"
-        },
-        "compile": {
-          "lib/netstandard2.0/SQLite-net.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/netstandard2.0/SQLite-net.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "SQLitePCLRaw.bundle_green/2.0.4": {
-        "type": "package",
-        "dependencies": {
-          "SQLitePCLRaw.core": "2.0.4",
-          "SQLitePCLRaw.lib.e_sqlite3.android": "2.0.4",
-          "SQLitePCLRaw.provider.e_sqlite3": "2.0.4"
-        },
-        "compile": {
-          "lib/netcoreapp3.1/SQLitePCLRaw.batteries_v2.dll": {},
-          "lib/netcoreapp3.1/SQLitePCLRaw.nativelibrary.dll": {}
-        },
-        "runtime": {
-          "lib/netcoreapp3.1/SQLitePCLRaw.batteries_v2.dll": {},
-          "lib/netcoreapp3.1/SQLitePCLRaw.nativelibrary.dll": {}
-        }
-      },
-      "SQLitePCLRaw.core/2.0.4": {
-        "type": "package",
-        "dependencies": {
-          "System.Memory": "4.5.3"
-        },
-        "compile": {
-          "lib/netstandard2.0/SQLitePCLRaw.core.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/SQLitePCLRaw.core.dll": {}
-        }
-      },
-      "SQLitePCLRaw.lib.e_sqlite3.android/2.0.4": {
-        "type": "package",
-        "compile": {
-          "lib/monoandroid80/SQLitePCLRaw.lib.e_sqlite3.android.dll": {}
-        },
-        "runtime": {
-          "lib/monoandroid80/SQLitePCLRaw.lib.e_sqlite3.android.dll": {}
-        }
-      },
-      "SQLitePCLRaw.provider.e_sqlite3/2.0.4": {
-        "type": "package",
-        "dependencies": {
-          "SQLitePCLRaw.core": "2.0.4"
-        },
-        "compile": {
-          "lib/netstandard2.0/SQLitePCLRaw.provider.e_sqlite3.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/SQLitePCLRaw.provider.e_sqlite3.dll": {}
-        }
-      },
-      "System.Buffers/4.4.0": {
-        "type": "package",
-        "compile": {
-          "ref/netcoreapp2.0/_._": {}
-        },
-        "runtime": {
-          "lib/netcoreapp2.0/_._": {}
-        }
-      },
-      "System.Memory/4.5.3": {
-        "type": "package",
-        "dependencies": {
-          "System.Buffers": "4.4.0",
-          "System.Runtime.CompilerServices.Unsafe": "4.5.2"
-        },
-        "compile": {
-          "ref/netcoreapp2.1/_._": {}
-        },
-        "runtime": {
-          "lib/netcoreapp2.1/_._": {}
-        }
-      },
-      "System.Runtime.CompilerServices.Unsafe/4.5.2": {
-        "type": "package",
-        "compile": {
-          "ref/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/netcoreapp2.0/System.Runtime.CompilerServices.Unsafe.dll": {
-            "related": ".xml"
-          }
         }
       },
       "Xamarin.Android.Glide/4.15.1.2": {
@@ -16569,13 +15075,6 @@
           "buildTransitive/net6.0-android31.0/Xamarin.AndroidX.Window.Extensions.Core.Core.targets": {}
         }
       },
-      "Xamarin.Build.Download/0.11.4": {
-        "type": "package",
-        "build": {
-          "buildTransitive/Xamarin.Build.Download.props": {},
-          "buildTransitive/Xamarin.Build.Download.targets": {}
-        }
-      },
       "Xamarin.Google.Android.Material/1.9.0.2": {
         "type": "package",
         "dependencies": {
@@ -16669,94 +15168,6 @@
         },
         "build": {
           "buildTransitive/net6.0-android31.0/Xamarin.Google.Guava.ListenableFuture.targets": {}
-        }
-      },
-      "Xamarin.GooglePlayServices.Base/118.2.0.2": {
-        "type": "package",
-        "dependencies": {
-          "Xamarin.AndroidX.Collection": "1.2.0.8",
-          "Xamarin.AndroidX.Core": "1.10.1.1",
-          "Xamarin.AndroidX.Fragment": "1.6.0",
-          "Xamarin.Build.Download": "0.11.4",
-          "Xamarin.GooglePlayServices.Basement": "118.2.0.2",
-          "Xamarin.GooglePlayServices.Tasks": "118.0.2.3"
-        },
-        "compile": {
-          "lib/net6.0-android31.0/Xamarin.GooglePlayServices.Base.dll": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "runtime": {
-          "lib/net6.0-android31.0/Xamarin.GooglePlayServices.Base.dll": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "build": {
-          "buildTransitive/net6.0-android31.0/Xamarin.GooglePlayServices.Base.targets": {}
-        }
-      },
-      "Xamarin.GooglePlayServices.Basement/118.2.0.2": {
-        "type": "package",
-        "dependencies": {
-          "Xamarin.AndroidX.Collection": "1.2.0.8",
-          "Xamarin.AndroidX.Core": "1.10.1.1",
-          "Xamarin.AndroidX.Fragment": "1.6.0",
-          "Xamarin.Build.Download": "0.11.4"
-        },
-        "compile": {
-          "lib/net6.0-android31.0/Xamarin.GooglePlayServices.Basement.dll": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "runtime": {
-          "lib/net6.0-android31.0/Xamarin.GooglePlayServices.Basement.dll": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "build": {
-          "buildTransitive/net6.0-android31.0/Xamarin.GooglePlayServices.Basement.targets": {}
-        }
-      },
-      "Xamarin.GooglePlayServices.Maps/118.1.0.3": {
-        "type": "package",
-        "dependencies": {
-          "Xamarin.AndroidX.Fragment": "1.6.0",
-          "Xamarin.Build.Download": "0.11.4",
-          "Xamarin.GooglePlayServices.Base": "118.2.0.2",
-          "Xamarin.GooglePlayServices.Basement": "118.2.0.2"
-        },
-        "compile": {
-          "lib/net6.0-android31.0/Xamarin.GooglePlayServices.Maps.dll": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "runtime": {
-          "lib/net6.0-android31.0/Xamarin.GooglePlayServices.Maps.dll": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "build": {
-          "buildTransitive/net6.0-android31.0/Xamarin.GooglePlayServices.Maps.targets": {}
-        }
-      },
-      "Xamarin.GooglePlayServices.Tasks/118.0.2.3": {
-        "type": "package",
-        "dependencies": {
-          "Xamarin.Build.Download": "0.11.4",
-          "Xamarin.GooglePlayServices.Basement": "118.2.0.2"
-        },
-        "compile": {
-          "lib/net6.0-android31.0/Xamarin.GooglePlayServices.Tasks.dll": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "runtime": {
-          "lib/net6.0-android31.0/Xamarin.GooglePlayServices.Tasks.dll": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "build": {
-          "buildTransitive/net6.0-android31.0/Xamarin.GooglePlayServices.Tasks.targets": {}
         }
       },
       "Xamarin.Jetbrains.Annotations/24.0.1.3": {
@@ -17206,22 +15617,6 @@
           }
         }
       },
-      "Microsoft.Maui.Controls.Maps/8.0.3": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.Maui.Maps": "8.0.3"
-        },
-        "compile": {
-          "lib/net8.0-ios17.0/Microsoft.Maui.Controls.Maps.dll": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "runtime": {
-          "lib/net8.0-ios17.0/Microsoft.Maui.Controls.Maps.dll": {
-            "related": ".pdb;.xml"
-          }
-        }
-      },
       "Microsoft.Maui.Controls.Xaml/8.0.100": {
         "type": "package",
         "dependencies": {
@@ -17294,19 +15689,6 @@
           }
         }
       },
-      "Microsoft.Maui.Maps/8.0.3": {
-        "type": "package",
-        "compile": {
-          "lib/net8.0-ios17.0/Microsoft.Maui.Maps.dll": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "runtime": {
-          "lib/net8.0-ios17.0/Microsoft.Maui.Maps.dll": {
-            "related": ".pdb;.xml"
-          }
-        }
-      },
       "Microsoft.Maui.Resizetizer/8.0.100": {
         "type": "package",
         "build": {
@@ -17318,134 +15700,6 @@
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
-        }
-      },
-      "sqlite-net-pcl/1.8.116": {
-        "type": "package",
-        "dependencies": {
-          "SQLitePCLRaw.bundle_green": "2.0.4"
-        },
-        "compile": {
-          "lib/netstandard2.0/SQLite-net.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/netstandard2.0/SQLite-net.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "SQLitePCLRaw.bundle_green/2.0.4": {
-        "type": "package",
-        "dependencies": {
-          "SQLitePCLRaw.core": "2.0.4",
-          "SQLitePCLRaw.lib.e_sqlite3": "2.0.4",
-          "SQLitePCLRaw.provider.dynamic_cdecl": "2.0.4"
-        },
-        "compile": {
-          "lib/netcoreapp3.1/SQLitePCLRaw.batteries_v2.dll": {},
-          "lib/netcoreapp3.1/SQLitePCLRaw.nativelibrary.dll": {}
-        },
-        "runtime": {
-          "lib/netcoreapp3.1/SQLitePCLRaw.batteries_v2.dll": {},
-          "lib/netcoreapp3.1/SQLitePCLRaw.nativelibrary.dll": {}
-        }
-      },
-      "SQLitePCLRaw.core/2.0.4": {
-        "type": "package",
-        "dependencies": {
-          "System.Memory": "4.5.3"
-        },
-        "compile": {
-          "lib/netstandard2.0/SQLitePCLRaw.core.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/SQLitePCLRaw.core.dll": {}
-        }
-      },
-      "SQLitePCLRaw.lib.e_sqlite3/2.0.4": {
-        "type": "package",
-        "compile": {
-          "lib/netstandard2.0/_._": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/_._": {}
-        },
-        "runtimeTargets": {
-          "runtimes/alpine-x64/native/libe_sqlite3.so": {
-            "assetType": "native",
-            "rid": "alpine-x64"
-          },
-          "runtimes/linux-arm/native/libe_sqlite3.so": {
-            "assetType": "native",
-            "rid": "linux-arm"
-          },
-          "runtimes/linux-arm64/native/libe_sqlite3.so": {
-            "assetType": "native",
-            "rid": "linux-arm64"
-          },
-          "runtimes/linux-armel/native/libe_sqlite3.so": {
-            "assetType": "native",
-            "rid": "linux-armel"
-          },
-          "runtimes/linux-mips64/native/libe_sqlite3.so": {
-            "assetType": "native",
-            "rid": "linux-mips64"
-          },
-          "runtimes/linux-musl-x64/native/libe_sqlite3.so": {
-            "assetType": "native",
-            "rid": "linux-musl-x64"
-          },
-          "runtimes/linux-x64/native/libe_sqlite3.so": {
-            "assetType": "native",
-            "rid": "linux-x64"
-          },
-          "runtimes/linux-x86/native/libe_sqlite3.so": {
-            "assetType": "native",
-            "rid": "linux-x86"
-          },
-          "runtimes/osx-x64/native/libe_sqlite3.dylib": {
-            "assetType": "native",
-            "rid": "osx-x64"
-          },
-          "runtimes/win-arm/native/e_sqlite3.dll": {
-            "assetType": "native",
-            "rid": "win-arm"
-          },
-          "runtimes/win-arm64/native/e_sqlite3.dll": {
-            "assetType": "native",
-            "rid": "win-arm64"
-          },
-          "runtimes/win-x64/native/e_sqlite3.dll": {
-            "assetType": "native",
-            "rid": "win-x64"
-          },
-          "runtimes/win-x86/native/e_sqlite3.dll": {
-            "assetType": "native",
-            "rid": "win-x86"
-          }
-        }
-      },
-      "SQLitePCLRaw.provider.dynamic_cdecl/2.0.4": {
-        "type": "package",
-        "dependencies": {
-          "SQLitePCLRaw.core": "2.0.4"
-        },
-        "compile": {
-          "lib/netstandard2.0/SQLitePCLRaw.provider.dynamic_cdecl.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/SQLitePCLRaw.provider.dynamic_cdecl.dll": {}
-        }
-      },
-      "System.Memory/4.5.3": {
-        "type": "package",
-        "compile": {
-          "ref/netcoreapp2.1/_._": {}
-        },
-        "runtime": {
-          "lib/netcoreapp2.1/_._": {}
         }
       }
     },
@@ -17763,22 +16017,6 @@
           }
         }
       },
-      "Microsoft.Maui.Controls.Maps/8.0.3": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.Maui.Maps": "8.0.3"
-        },
-        "compile": {
-          "lib/net8.0-ios17.0/Microsoft.Maui.Controls.Maps.dll": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "runtime": {
-          "lib/net8.0-ios17.0/Microsoft.Maui.Controls.Maps.dll": {
-            "related": ".pdb;.xml"
-          }
-        }
-      },
       "Microsoft.Maui.Controls.Xaml/8.0.100": {
         "type": "package",
         "dependencies": {
@@ -17851,19 +16089,6 @@
           }
         }
       },
-      "Microsoft.Maui.Maps/8.0.3": {
-        "type": "package",
-        "compile": {
-          "lib/net8.0-ios17.0/Microsoft.Maui.Maps.dll": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "runtime": {
-          "lib/net8.0-ios17.0/Microsoft.Maui.Maps.dll": {
-            "related": ".pdb;.xml"
-          }
-        }
-      },
       "Microsoft.Maui.Resizetizer/8.0.100": {
         "type": "package",
         "build": {
@@ -17875,83 +16100,6 @@
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
-        }
-      },
-      "sqlite-net-pcl/1.8.116": {
-        "type": "package",
-        "dependencies": {
-          "SQLitePCLRaw.bundle_green": "2.0.4"
-        },
-        "compile": {
-          "lib/netstandard2.0/SQLite-net.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/netstandard2.0/SQLite-net.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "SQLitePCLRaw.bundle_green/2.0.4": {
-        "type": "package",
-        "dependencies": {
-          "SQLitePCLRaw.core": "2.0.4",
-          "SQLitePCLRaw.lib.e_sqlite3": "2.0.4",
-          "SQLitePCLRaw.provider.dynamic_cdecl": "2.0.4"
-        },
-        "compile": {
-          "lib/netcoreapp3.1/SQLitePCLRaw.batteries_v2.dll": {},
-          "lib/netcoreapp3.1/SQLitePCLRaw.nativelibrary.dll": {}
-        },
-        "runtime": {
-          "lib/netcoreapp3.1/SQLitePCLRaw.batteries_v2.dll": {},
-          "lib/netcoreapp3.1/SQLitePCLRaw.nativelibrary.dll": {}
-        }
-      },
-      "SQLitePCLRaw.core/2.0.4": {
-        "type": "package",
-        "dependencies": {
-          "System.Memory": "4.5.3"
-        },
-        "compile": {
-          "lib/netstandard2.0/SQLitePCLRaw.core.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/SQLitePCLRaw.core.dll": {}
-        }
-      },
-      "SQLitePCLRaw.lib.e_sqlite3/2.0.4": {
-        "type": "package",
-        "compile": {
-          "lib/netstandard2.0/_._": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/_._": {}
-        },
-        "native": {
-          "runtimes/linux-arm/native/libe_sqlite3.so": {}
-        }
-      },
-      "SQLitePCLRaw.provider.dynamic_cdecl/2.0.4": {
-        "type": "package",
-        "dependencies": {
-          "SQLitePCLRaw.core": "2.0.4"
-        },
-        "compile": {
-          "lib/netstandard2.0/SQLitePCLRaw.provider.dynamic_cdecl.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/SQLitePCLRaw.provider.dynamic_cdecl.dll": {}
-        }
-      },
-      "System.Memory/4.5.3": {
-        "type": "package",
-        "compile": {
-          "ref/netcoreapp2.1/_._": {}
-        },
-        "runtime": {
-          "lib/netcoreapp2.1/_._": {}
         }
       }
     },
@@ -18269,22 +16417,6 @@
           }
         }
       },
-      "Microsoft.Maui.Controls.Maps/8.0.3": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.Maui.Maps": "8.0.3"
-        },
-        "compile": {
-          "lib/net8.0-ios17.0/Microsoft.Maui.Controls.Maps.dll": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "runtime": {
-          "lib/net8.0-ios17.0/Microsoft.Maui.Controls.Maps.dll": {
-            "related": ".pdb;.xml"
-          }
-        }
-      },
       "Microsoft.Maui.Controls.Xaml/8.0.100": {
         "type": "package",
         "dependencies": {
@@ -18357,19 +16489,6 @@
           }
         }
       },
-      "Microsoft.Maui.Maps/8.0.3": {
-        "type": "package",
-        "compile": {
-          "lib/net8.0-ios17.0/Microsoft.Maui.Maps.dll": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "runtime": {
-          "lib/net8.0-ios17.0/Microsoft.Maui.Maps.dll": {
-            "related": ".pdb;.xml"
-          }
-        }
-      },
       "Microsoft.Maui.Resizetizer/8.0.100": {
         "type": "package",
         "build": {
@@ -18381,83 +16500,6 @@
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
-        }
-      },
-      "sqlite-net-pcl/1.8.116": {
-        "type": "package",
-        "dependencies": {
-          "SQLitePCLRaw.bundle_green": "2.0.4"
-        },
-        "compile": {
-          "lib/netstandard2.0/SQLite-net.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/netstandard2.0/SQLite-net.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "SQLitePCLRaw.bundle_green/2.0.4": {
-        "type": "package",
-        "dependencies": {
-          "SQLitePCLRaw.core": "2.0.4",
-          "SQLitePCLRaw.lib.e_sqlite3": "2.0.4",
-          "SQLitePCLRaw.provider.dynamic_cdecl": "2.0.4"
-        },
-        "compile": {
-          "lib/netcoreapp3.1/SQLitePCLRaw.batteries_v2.dll": {},
-          "lib/netcoreapp3.1/SQLitePCLRaw.nativelibrary.dll": {}
-        },
-        "runtime": {
-          "lib/netcoreapp3.1/SQLitePCLRaw.batteries_v2.dll": {},
-          "lib/netcoreapp3.1/SQLitePCLRaw.nativelibrary.dll": {}
-        }
-      },
-      "SQLitePCLRaw.core/2.0.4": {
-        "type": "package",
-        "dependencies": {
-          "System.Memory": "4.5.3"
-        },
-        "compile": {
-          "lib/netstandard2.0/SQLitePCLRaw.core.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/SQLitePCLRaw.core.dll": {}
-        }
-      },
-      "SQLitePCLRaw.lib.e_sqlite3/2.0.4": {
-        "type": "package",
-        "compile": {
-          "lib/netstandard2.0/_._": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/_._": {}
-        },
-        "native": {
-          "runtimes/linux-arm64/native/libe_sqlite3.so": {}
-        }
-      },
-      "SQLitePCLRaw.provider.dynamic_cdecl/2.0.4": {
-        "type": "package",
-        "dependencies": {
-          "SQLitePCLRaw.core": "2.0.4"
-        },
-        "compile": {
-          "lib/netstandard2.0/SQLitePCLRaw.provider.dynamic_cdecl.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/SQLitePCLRaw.provider.dynamic_cdecl.dll": {}
-        }
-      },
-      "System.Memory/4.5.3": {
-        "type": "package",
-        "compile": {
-          "ref/netcoreapp2.1/_._": {}
-        },
-        "runtime": {
-          "lib/netcoreapp2.1/_._": {}
         }
       }
     },
@@ -18775,22 +16817,6 @@
           }
         }
       },
-      "Microsoft.Maui.Controls.Maps/8.0.3": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.Maui.Maps": "8.0.3"
-        },
-        "compile": {
-          "lib/net8.0-ios17.0/Microsoft.Maui.Controls.Maps.dll": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "runtime": {
-          "lib/net8.0-ios17.0/Microsoft.Maui.Controls.Maps.dll": {
-            "related": ".pdb;.xml"
-          }
-        }
-      },
       "Microsoft.Maui.Controls.Xaml/8.0.100": {
         "type": "package",
         "dependencies": {
@@ -18863,19 +16889,6 @@
           }
         }
       },
-      "Microsoft.Maui.Maps/8.0.3": {
-        "type": "package",
-        "compile": {
-          "lib/net8.0-ios17.0/Microsoft.Maui.Maps.dll": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "runtime": {
-          "lib/net8.0-ios17.0/Microsoft.Maui.Maps.dll": {
-            "related": ".pdb;.xml"
-          }
-        }
-      },
       "Microsoft.Maui.Resizetizer/8.0.100": {
         "type": "package",
         "build": {
@@ -18887,83 +16900,6 @@
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
-        }
-      },
-      "sqlite-net-pcl/1.8.116": {
-        "type": "package",
-        "dependencies": {
-          "SQLitePCLRaw.bundle_green": "2.0.4"
-        },
-        "compile": {
-          "lib/netstandard2.0/SQLite-net.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/netstandard2.0/SQLite-net.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "SQLitePCLRaw.bundle_green/2.0.4": {
-        "type": "package",
-        "dependencies": {
-          "SQLitePCLRaw.core": "2.0.4",
-          "SQLitePCLRaw.lib.e_sqlite3": "2.0.4",
-          "SQLitePCLRaw.provider.dynamic_cdecl": "2.0.4"
-        },
-        "compile": {
-          "lib/netcoreapp3.1/SQLitePCLRaw.batteries_v2.dll": {},
-          "lib/netcoreapp3.1/SQLitePCLRaw.nativelibrary.dll": {}
-        },
-        "runtime": {
-          "lib/netcoreapp3.1/SQLitePCLRaw.batteries_v2.dll": {},
-          "lib/netcoreapp3.1/SQLitePCLRaw.nativelibrary.dll": {}
-        }
-      },
-      "SQLitePCLRaw.core/2.0.4": {
-        "type": "package",
-        "dependencies": {
-          "System.Memory": "4.5.3"
-        },
-        "compile": {
-          "lib/netstandard2.0/SQLitePCLRaw.core.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/SQLitePCLRaw.core.dll": {}
-        }
-      },
-      "SQLitePCLRaw.lib.e_sqlite3/2.0.4": {
-        "type": "package",
-        "compile": {
-          "lib/netstandard2.0/_._": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/_._": {}
-        },
-        "native": {
-          "runtimes/linux-x64/native/libe_sqlite3.so": {}
-        }
-      },
-      "SQLitePCLRaw.provider.dynamic_cdecl/2.0.4": {
-        "type": "package",
-        "dependencies": {
-          "SQLitePCLRaw.core": "2.0.4"
-        },
-        "compile": {
-          "lib/netstandard2.0/SQLitePCLRaw.provider.dynamic_cdecl.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/SQLitePCLRaw.provider.dynamic_cdecl.dll": {}
-        }
-      },
-      "System.Memory/4.5.3": {
-        "type": "package",
-        "compile": {
-          "ref/netcoreapp2.1/_._": {}
-        },
-        "runtime": {
-          "lib/netcoreapp2.1/_._": {}
         }
       }
     },
@@ -19281,22 +17217,6 @@
           }
         }
       },
-      "Microsoft.Maui.Controls.Maps/8.0.3": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.Maui.Maps": "8.0.3"
-        },
-        "compile": {
-          "lib/net8.0-ios17.0/Microsoft.Maui.Controls.Maps.dll": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "runtime": {
-          "lib/net8.0-ios17.0/Microsoft.Maui.Controls.Maps.dll": {
-            "related": ".pdb;.xml"
-          }
-        }
-      },
       "Microsoft.Maui.Controls.Xaml/8.0.100": {
         "type": "package",
         "dependencies": {
@@ -19369,19 +17289,6 @@
           }
         }
       },
-      "Microsoft.Maui.Maps/8.0.3": {
-        "type": "package",
-        "compile": {
-          "lib/net8.0-ios17.0/Microsoft.Maui.Maps.dll": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "runtime": {
-          "lib/net8.0-ios17.0/Microsoft.Maui.Maps.dll": {
-            "related": ".pdb;.xml"
-          }
-        }
-      },
       "Microsoft.Maui.Resizetizer/8.0.100": {
         "type": "package",
         "build": {
@@ -19393,83 +17300,6 @@
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
-        }
-      },
-      "sqlite-net-pcl/1.8.116": {
-        "type": "package",
-        "dependencies": {
-          "SQLitePCLRaw.bundle_green": "2.0.4"
-        },
-        "compile": {
-          "lib/netstandard2.0/SQLite-net.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/netstandard2.0/SQLite-net.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "SQLitePCLRaw.bundle_green/2.0.4": {
-        "type": "package",
-        "dependencies": {
-          "SQLitePCLRaw.core": "2.0.4",
-          "SQLitePCLRaw.lib.e_sqlite3": "2.0.4",
-          "SQLitePCLRaw.provider.dynamic_cdecl": "2.0.4"
-        },
-        "compile": {
-          "lib/netcoreapp3.1/SQLitePCLRaw.batteries_v2.dll": {},
-          "lib/netcoreapp3.1/SQLitePCLRaw.nativelibrary.dll": {}
-        },
-        "runtime": {
-          "lib/netcoreapp3.1/SQLitePCLRaw.batteries_v2.dll": {},
-          "lib/netcoreapp3.1/SQLitePCLRaw.nativelibrary.dll": {}
-        }
-      },
-      "SQLitePCLRaw.core/2.0.4": {
-        "type": "package",
-        "dependencies": {
-          "System.Memory": "4.5.3"
-        },
-        "compile": {
-          "lib/netstandard2.0/SQLitePCLRaw.core.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/SQLitePCLRaw.core.dll": {}
-        }
-      },
-      "SQLitePCLRaw.lib.e_sqlite3/2.0.4": {
-        "type": "package",
-        "compile": {
-          "lib/netstandard2.0/_._": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/_._": {}
-        },
-        "native": {
-          "runtimes/linux-x86/native/libe_sqlite3.so": {}
-        }
-      },
-      "SQLitePCLRaw.provider.dynamic_cdecl/2.0.4": {
-        "type": "package",
-        "dependencies": {
-          "SQLitePCLRaw.core": "2.0.4"
-        },
-        "compile": {
-          "lib/netstandard2.0/SQLitePCLRaw.provider.dynamic_cdecl.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/SQLitePCLRaw.provider.dynamic_cdecl.dll": {}
-        }
-      },
-      "System.Memory/4.5.3": {
-        "type": "package",
-        "compile": {
-          "ref/netcoreapp2.1/_._": {}
-        },
-        "runtime": {
-          "lib/netcoreapp2.1/_._": {}
         }
       }
     },
@@ -19787,22 +17617,6 @@
           }
         }
       },
-      "Microsoft.Maui.Controls.Maps/8.0.3": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.Maui.Maps": "8.0.3"
-        },
-        "compile": {
-          "lib/net8.0-ios17.0/Microsoft.Maui.Controls.Maps.dll": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "runtime": {
-          "lib/net8.0-ios17.0/Microsoft.Maui.Controls.Maps.dll": {
-            "related": ".pdb;.xml"
-          }
-        }
-      },
       "Microsoft.Maui.Controls.Xaml/8.0.100": {
         "type": "package",
         "dependencies": {
@@ -19875,19 +17689,6 @@
           }
         }
       },
-      "Microsoft.Maui.Maps/8.0.3": {
-        "type": "package",
-        "compile": {
-          "lib/net8.0-ios17.0/Microsoft.Maui.Maps.dll": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "runtime": {
-          "lib/net8.0-ios17.0/Microsoft.Maui.Maps.dll": {
-            "related": ".pdb;.xml"
-          }
-        }
-      },
       "Microsoft.Maui.Resizetizer/8.0.100": {
         "type": "package",
         "build": {
@@ -19899,80 +17700,6 @@
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
-        }
-      },
-      "sqlite-net-pcl/1.8.116": {
-        "type": "package",
-        "dependencies": {
-          "SQLitePCLRaw.bundle_green": "2.0.4"
-        },
-        "compile": {
-          "lib/netstandard2.0/SQLite-net.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/netstandard2.0/SQLite-net.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "SQLitePCLRaw.bundle_green/2.0.4": {
-        "type": "package",
-        "dependencies": {
-          "SQLitePCLRaw.core": "2.0.4",
-          "SQLitePCLRaw.lib.e_sqlite3": "2.0.4",
-          "SQLitePCLRaw.provider.dynamic_cdecl": "2.0.4"
-        },
-        "compile": {
-          "lib/netcoreapp3.1/SQLitePCLRaw.batteries_v2.dll": {},
-          "lib/netcoreapp3.1/SQLitePCLRaw.nativelibrary.dll": {}
-        },
-        "runtime": {
-          "lib/netcoreapp3.1/SQLitePCLRaw.batteries_v2.dll": {},
-          "lib/netcoreapp3.1/SQLitePCLRaw.nativelibrary.dll": {}
-        }
-      },
-      "SQLitePCLRaw.core/2.0.4": {
-        "type": "package",
-        "dependencies": {
-          "System.Memory": "4.5.3"
-        },
-        "compile": {
-          "lib/netstandard2.0/SQLitePCLRaw.core.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/SQLitePCLRaw.core.dll": {}
-        }
-      },
-      "SQLitePCLRaw.lib.e_sqlite3/2.0.4": {
-        "type": "package",
-        "compile": {
-          "lib/netstandard2.0/_._": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/_._": {}
-        }
-      },
-      "SQLitePCLRaw.provider.dynamic_cdecl/2.0.4": {
-        "type": "package",
-        "dependencies": {
-          "SQLitePCLRaw.core": "2.0.4"
-        },
-        "compile": {
-          "lib/netstandard2.0/SQLitePCLRaw.provider.dynamic_cdecl.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/SQLitePCLRaw.provider.dynamic_cdecl.dll": {}
-        }
-      },
-      "System.Memory/4.5.3": {
-        "type": "package",
-        "compile": {
-          "ref/netcoreapp2.1/_._": {}
-        },
-        "runtime": {
-          "lib/netcoreapp2.1/_._": {}
         }
       }
     },
@@ -20290,22 +18017,6 @@
           }
         }
       },
-      "Microsoft.Maui.Controls.Maps/8.0.3": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.Maui.Maps": "8.0.3"
-        },
-        "compile": {
-          "lib/net8.0-ios17.0/Microsoft.Maui.Controls.Maps.dll": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "runtime": {
-          "lib/net8.0-ios17.0/Microsoft.Maui.Controls.Maps.dll": {
-            "related": ".pdb;.xml"
-          }
-        }
-      },
       "Microsoft.Maui.Controls.Xaml/8.0.100": {
         "type": "package",
         "dependencies": {
@@ -20378,19 +18089,6 @@
           }
         }
       },
-      "Microsoft.Maui.Maps/8.0.3": {
-        "type": "package",
-        "compile": {
-          "lib/net8.0-ios17.0/Microsoft.Maui.Maps.dll": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "runtime": {
-          "lib/net8.0-ios17.0/Microsoft.Maui.Maps.dll": {
-            "related": ".pdb;.xml"
-          }
-        }
-      },
       "Microsoft.Maui.Resizetizer/8.0.100": {
         "type": "package",
         "build": {
@@ -20402,80 +18100,6 @@
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
-        }
-      },
-      "sqlite-net-pcl/1.8.116": {
-        "type": "package",
-        "dependencies": {
-          "SQLitePCLRaw.bundle_green": "2.0.4"
-        },
-        "compile": {
-          "lib/netstandard2.0/SQLite-net.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/netstandard2.0/SQLite-net.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "SQLitePCLRaw.bundle_green/2.0.4": {
-        "type": "package",
-        "dependencies": {
-          "SQLitePCLRaw.core": "2.0.4",
-          "SQLitePCLRaw.lib.e_sqlite3": "2.0.4",
-          "SQLitePCLRaw.provider.dynamic_cdecl": "2.0.4"
-        },
-        "compile": {
-          "lib/netcoreapp3.1/SQLitePCLRaw.batteries_v2.dll": {},
-          "lib/netcoreapp3.1/SQLitePCLRaw.nativelibrary.dll": {}
-        },
-        "runtime": {
-          "lib/netcoreapp3.1/SQLitePCLRaw.batteries_v2.dll": {},
-          "lib/netcoreapp3.1/SQLitePCLRaw.nativelibrary.dll": {}
-        }
-      },
-      "SQLitePCLRaw.core/2.0.4": {
-        "type": "package",
-        "dependencies": {
-          "System.Memory": "4.5.3"
-        },
-        "compile": {
-          "lib/netstandard2.0/SQLitePCLRaw.core.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/SQLitePCLRaw.core.dll": {}
-        }
-      },
-      "SQLitePCLRaw.lib.e_sqlite3/2.0.4": {
-        "type": "package",
-        "compile": {
-          "lib/netstandard2.0/_._": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/_._": {}
-        }
-      },
-      "SQLitePCLRaw.provider.dynamic_cdecl/2.0.4": {
-        "type": "package",
-        "dependencies": {
-          "SQLitePCLRaw.core": "2.0.4"
-        },
-        "compile": {
-          "lib/netstandard2.0/SQLitePCLRaw.provider.dynamic_cdecl.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/SQLitePCLRaw.provider.dynamic_cdecl.dll": {}
-        }
-      },
-      "System.Memory/4.5.3": {
-        "type": "package",
-        "compile": {
-          "ref/netcoreapp2.1/_._": {}
-        },
-        "runtime": {
-          "lib/netcoreapp2.1/_._": {}
         }
       }
     },
@@ -20793,22 +18417,6 @@
           }
         }
       },
-      "Microsoft.Maui.Controls.Maps/8.0.3": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.Maui.Maps": "8.0.3"
-        },
-        "compile": {
-          "lib/net8.0-maccatalyst17.0/Microsoft.Maui.Controls.Maps.dll": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "runtime": {
-          "lib/net8.0-maccatalyst17.0/Microsoft.Maui.Controls.Maps.dll": {
-            "related": ".pdb;.xml"
-          }
-        }
-      },
       "Microsoft.Maui.Controls.Xaml/8.0.100": {
         "type": "package",
         "dependencies": {
@@ -20881,19 +18489,6 @@
           }
         }
       },
-      "Microsoft.Maui.Maps/8.0.3": {
-        "type": "package",
-        "compile": {
-          "lib/net8.0-maccatalyst17.0/Microsoft.Maui.Maps.dll": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "runtime": {
-          "lib/net8.0-maccatalyst17.0/Microsoft.Maui.Maps.dll": {
-            "related": ".pdb;.xml"
-          }
-        }
-      },
       "Microsoft.Maui.Resizetizer/8.0.100": {
         "type": "package",
         "build": {
@@ -20905,134 +18500,6 @@
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
-        }
-      },
-      "sqlite-net-pcl/1.8.116": {
-        "type": "package",
-        "dependencies": {
-          "SQLitePCLRaw.bundle_green": "2.0.4"
-        },
-        "compile": {
-          "lib/netstandard2.0/SQLite-net.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/netstandard2.0/SQLite-net.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "SQLitePCLRaw.bundle_green/2.0.4": {
-        "type": "package",
-        "dependencies": {
-          "SQLitePCLRaw.core": "2.0.4",
-          "SQLitePCLRaw.lib.e_sqlite3": "2.0.4",
-          "SQLitePCLRaw.provider.dynamic_cdecl": "2.0.4"
-        },
-        "compile": {
-          "lib/netcoreapp3.1/SQLitePCLRaw.batteries_v2.dll": {},
-          "lib/netcoreapp3.1/SQLitePCLRaw.nativelibrary.dll": {}
-        },
-        "runtime": {
-          "lib/netcoreapp3.1/SQLitePCLRaw.batteries_v2.dll": {},
-          "lib/netcoreapp3.1/SQLitePCLRaw.nativelibrary.dll": {}
-        }
-      },
-      "SQLitePCLRaw.core/2.0.4": {
-        "type": "package",
-        "dependencies": {
-          "System.Memory": "4.5.3"
-        },
-        "compile": {
-          "lib/netstandard2.0/SQLitePCLRaw.core.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/SQLitePCLRaw.core.dll": {}
-        }
-      },
-      "SQLitePCLRaw.lib.e_sqlite3/2.0.4": {
-        "type": "package",
-        "compile": {
-          "lib/netstandard2.0/_._": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/_._": {}
-        },
-        "runtimeTargets": {
-          "runtimes/alpine-x64/native/libe_sqlite3.so": {
-            "assetType": "native",
-            "rid": "alpine-x64"
-          },
-          "runtimes/linux-arm/native/libe_sqlite3.so": {
-            "assetType": "native",
-            "rid": "linux-arm"
-          },
-          "runtimes/linux-arm64/native/libe_sqlite3.so": {
-            "assetType": "native",
-            "rid": "linux-arm64"
-          },
-          "runtimes/linux-armel/native/libe_sqlite3.so": {
-            "assetType": "native",
-            "rid": "linux-armel"
-          },
-          "runtimes/linux-mips64/native/libe_sqlite3.so": {
-            "assetType": "native",
-            "rid": "linux-mips64"
-          },
-          "runtimes/linux-musl-x64/native/libe_sqlite3.so": {
-            "assetType": "native",
-            "rid": "linux-musl-x64"
-          },
-          "runtimes/linux-x64/native/libe_sqlite3.so": {
-            "assetType": "native",
-            "rid": "linux-x64"
-          },
-          "runtimes/linux-x86/native/libe_sqlite3.so": {
-            "assetType": "native",
-            "rid": "linux-x86"
-          },
-          "runtimes/osx-x64/native/libe_sqlite3.dylib": {
-            "assetType": "native",
-            "rid": "osx-x64"
-          },
-          "runtimes/win-arm/native/e_sqlite3.dll": {
-            "assetType": "native",
-            "rid": "win-arm"
-          },
-          "runtimes/win-arm64/native/e_sqlite3.dll": {
-            "assetType": "native",
-            "rid": "win-arm64"
-          },
-          "runtimes/win-x64/native/e_sqlite3.dll": {
-            "assetType": "native",
-            "rid": "win-x64"
-          },
-          "runtimes/win-x86/native/e_sqlite3.dll": {
-            "assetType": "native",
-            "rid": "win-x86"
-          }
-        }
-      },
-      "SQLitePCLRaw.provider.dynamic_cdecl/2.0.4": {
-        "type": "package",
-        "dependencies": {
-          "SQLitePCLRaw.core": "2.0.4"
-        },
-        "compile": {
-          "lib/netstandard2.0/SQLitePCLRaw.provider.dynamic_cdecl.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/SQLitePCLRaw.provider.dynamic_cdecl.dll": {}
-        }
-      },
-      "System.Memory/4.5.3": {
-        "type": "package",
-        "compile": {
-          "ref/netcoreapp2.1/_._": {}
-        },
-        "runtime": {
-          "lib/netcoreapp2.1/_._": {}
         }
       }
     },
@@ -21350,22 +18817,6 @@
           }
         }
       },
-      "Microsoft.Maui.Controls.Maps/8.0.3": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.Maui.Maps": "8.0.3"
-        },
-        "compile": {
-          "lib/net8.0-maccatalyst17.0/Microsoft.Maui.Controls.Maps.dll": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "runtime": {
-          "lib/net8.0-maccatalyst17.0/Microsoft.Maui.Controls.Maps.dll": {
-            "related": ".pdb;.xml"
-          }
-        }
-      },
       "Microsoft.Maui.Controls.Xaml/8.0.100": {
         "type": "package",
         "dependencies": {
@@ -21438,19 +18889,6 @@
           }
         }
       },
-      "Microsoft.Maui.Maps/8.0.3": {
-        "type": "package",
-        "compile": {
-          "lib/net8.0-maccatalyst17.0/Microsoft.Maui.Maps.dll": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "runtime": {
-          "lib/net8.0-maccatalyst17.0/Microsoft.Maui.Maps.dll": {
-            "related": ".pdb;.xml"
-          }
-        }
-      },
       "Microsoft.Maui.Resizetizer/8.0.100": {
         "type": "package",
         "build": {
@@ -21462,83 +18900,6 @@
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
-        }
-      },
-      "sqlite-net-pcl/1.8.116": {
-        "type": "package",
-        "dependencies": {
-          "SQLitePCLRaw.bundle_green": "2.0.4"
-        },
-        "compile": {
-          "lib/netstandard2.0/SQLite-net.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/netstandard2.0/SQLite-net.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "SQLitePCLRaw.bundle_green/2.0.4": {
-        "type": "package",
-        "dependencies": {
-          "SQLitePCLRaw.core": "2.0.4",
-          "SQLitePCLRaw.lib.e_sqlite3": "2.0.4",
-          "SQLitePCLRaw.provider.dynamic_cdecl": "2.0.4"
-        },
-        "compile": {
-          "lib/netcoreapp3.1/SQLitePCLRaw.batteries_v2.dll": {},
-          "lib/netcoreapp3.1/SQLitePCLRaw.nativelibrary.dll": {}
-        },
-        "runtime": {
-          "lib/netcoreapp3.1/SQLitePCLRaw.batteries_v2.dll": {},
-          "lib/netcoreapp3.1/SQLitePCLRaw.nativelibrary.dll": {}
-        }
-      },
-      "SQLitePCLRaw.core/2.0.4": {
-        "type": "package",
-        "dependencies": {
-          "System.Memory": "4.5.3"
-        },
-        "compile": {
-          "lib/netstandard2.0/SQLitePCLRaw.core.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/SQLitePCLRaw.core.dll": {}
-        }
-      },
-      "SQLitePCLRaw.lib.e_sqlite3/2.0.4": {
-        "type": "package",
-        "compile": {
-          "lib/netstandard2.0/_._": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/_._": {}
-        },
-        "native": {
-          "runtimes/linux-arm/native/libe_sqlite3.so": {}
-        }
-      },
-      "SQLitePCLRaw.provider.dynamic_cdecl/2.0.4": {
-        "type": "package",
-        "dependencies": {
-          "SQLitePCLRaw.core": "2.0.4"
-        },
-        "compile": {
-          "lib/netstandard2.0/SQLitePCLRaw.provider.dynamic_cdecl.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/SQLitePCLRaw.provider.dynamic_cdecl.dll": {}
-        }
-      },
-      "System.Memory/4.5.3": {
-        "type": "package",
-        "compile": {
-          "ref/netcoreapp2.1/_._": {}
-        },
-        "runtime": {
-          "lib/netcoreapp2.1/_._": {}
         }
       }
     },
@@ -21856,22 +19217,6 @@
           }
         }
       },
-      "Microsoft.Maui.Controls.Maps/8.0.3": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.Maui.Maps": "8.0.3"
-        },
-        "compile": {
-          "lib/net8.0-maccatalyst17.0/Microsoft.Maui.Controls.Maps.dll": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "runtime": {
-          "lib/net8.0-maccatalyst17.0/Microsoft.Maui.Controls.Maps.dll": {
-            "related": ".pdb;.xml"
-          }
-        }
-      },
       "Microsoft.Maui.Controls.Xaml/8.0.100": {
         "type": "package",
         "dependencies": {
@@ -21944,19 +19289,6 @@
           }
         }
       },
-      "Microsoft.Maui.Maps/8.0.3": {
-        "type": "package",
-        "compile": {
-          "lib/net8.0-maccatalyst17.0/Microsoft.Maui.Maps.dll": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "runtime": {
-          "lib/net8.0-maccatalyst17.0/Microsoft.Maui.Maps.dll": {
-            "related": ".pdb;.xml"
-          }
-        }
-      },
       "Microsoft.Maui.Resizetizer/8.0.100": {
         "type": "package",
         "build": {
@@ -21968,83 +19300,6 @@
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
-        }
-      },
-      "sqlite-net-pcl/1.8.116": {
-        "type": "package",
-        "dependencies": {
-          "SQLitePCLRaw.bundle_green": "2.0.4"
-        },
-        "compile": {
-          "lib/netstandard2.0/SQLite-net.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/netstandard2.0/SQLite-net.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "SQLitePCLRaw.bundle_green/2.0.4": {
-        "type": "package",
-        "dependencies": {
-          "SQLitePCLRaw.core": "2.0.4",
-          "SQLitePCLRaw.lib.e_sqlite3": "2.0.4",
-          "SQLitePCLRaw.provider.dynamic_cdecl": "2.0.4"
-        },
-        "compile": {
-          "lib/netcoreapp3.1/SQLitePCLRaw.batteries_v2.dll": {},
-          "lib/netcoreapp3.1/SQLitePCLRaw.nativelibrary.dll": {}
-        },
-        "runtime": {
-          "lib/netcoreapp3.1/SQLitePCLRaw.batteries_v2.dll": {},
-          "lib/netcoreapp3.1/SQLitePCLRaw.nativelibrary.dll": {}
-        }
-      },
-      "SQLitePCLRaw.core/2.0.4": {
-        "type": "package",
-        "dependencies": {
-          "System.Memory": "4.5.3"
-        },
-        "compile": {
-          "lib/netstandard2.0/SQLitePCLRaw.core.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/SQLitePCLRaw.core.dll": {}
-        }
-      },
-      "SQLitePCLRaw.lib.e_sqlite3/2.0.4": {
-        "type": "package",
-        "compile": {
-          "lib/netstandard2.0/_._": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/_._": {}
-        },
-        "native": {
-          "runtimes/linux-arm64/native/libe_sqlite3.so": {}
-        }
-      },
-      "SQLitePCLRaw.provider.dynamic_cdecl/2.0.4": {
-        "type": "package",
-        "dependencies": {
-          "SQLitePCLRaw.core": "2.0.4"
-        },
-        "compile": {
-          "lib/netstandard2.0/SQLitePCLRaw.provider.dynamic_cdecl.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/SQLitePCLRaw.provider.dynamic_cdecl.dll": {}
-        }
-      },
-      "System.Memory/4.5.3": {
-        "type": "package",
-        "compile": {
-          "ref/netcoreapp2.1/_._": {}
-        },
-        "runtime": {
-          "lib/netcoreapp2.1/_._": {}
         }
       }
     },
@@ -22362,22 +19617,6 @@
           }
         }
       },
-      "Microsoft.Maui.Controls.Maps/8.0.3": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.Maui.Maps": "8.0.3"
-        },
-        "compile": {
-          "lib/net8.0-maccatalyst17.0/Microsoft.Maui.Controls.Maps.dll": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "runtime": {
-          "lib/net8.0-maccatalyst17.0/Microsoft.Maui.Controls.Maps.dll": {
-            "related": ".pdb;.xml"
-          }
-        }
-      },
       "Microsoft.Maui.Controls.Xaml/8.0.100": {
         "type": "package",
         "dependencies": {
@@ -22450,19 +19689,6 @@
           }
         }
       },
-      "Microsoft.Maui.Maps/8.0.3": {
-        "type": "package",
-        "compile": {
-          "lib/net8.0-maccatalyst17.0/Microsoft.Maui.Maps.dll": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "runtime": {
-          "lib/net8.0-maccatalyst17.0/Microsoft.Maui.Maps.dll": {
-            "related": ".pdb;.xml"
-          }
-        }
-      },
       "Microsoft.Maui.Resizetizer/8.0.100": {
         "type": "package",
         "build": {
@@ -22474,83 +19700,6 @@
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
-        }
-      },
-      "sqlite-net-pcl/1.8.116": {
-        "type": "package",
-        "dependencies": {
-          "SQLitePCLRaw.bundle_green": "2.0.4"
-        },
-        "compile": {
-          "lib/netstandard2.0/SQLite-net.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/netstandard2.0/SQLite-net.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "SQLitePCLRaw.bundle_green/2.0.4": {
-        "type": "package",
-        "dependencies": {
-          "SQLitePCLRaw.core": "2.0.4",
-          "SQLitePCLRaw.lib.e_sqlite3": "2.0.4",
-          "SQLitePCLRaw.provider.dynamic_cdecl": "2.0.4"
-        },
-        "compile": {
-          "lib/netcoreapp3.1/SQLitePCLRaw.batteries_v2.dll": {},
-          "lib/netcoreapp3.1/SQLitePCLRaw.nativelibrary.dll": {}
-        },
-        "runtime": {
-          "lib/netcoreapp3.1/SQLitePCLRaw.batteries_v2.dll": {},
-          "lib/netcoreapp3.1/SQLitePCLRaw.nativelibrary.dll": {}
-        }
-      },
-      "SQLitePCLRaw.core/2.0.4": {
-        "type": "package",
-        "dependencies": {
-          "System.Memory": "4.5.3"
-        },
-        "compile": {
-          "lib/netstandard2.0/SQLitePCLRaw.core.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/SQLitePCLRaw.core.dll": {}
-        }
-      },
-      "SQLitePCLRaw.lib.e_sqlite3/2.0.4": {
-        "type": "package",
-        "compile": {
-          "lib/netstandard2.0/_._": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/_._": {}
-        },
-        "native": {
-          "runtimes/linux-x64/native/libe_sqlite3.so": {}
-        }
-      },
-      "SQLitePCLRaw.provider.dynamic_cdecl/2.0.4": {
-        "type": "package",
-        "dependencies": {
-          "SQLitePCLRaw.core": "2.0.4"
-        },
-        "compile": {
-          "lib/netstandard2.0/SQLitePCLRaw.provider.dynamic_cdecl.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/SQLitePCLRaw.provider.dynamic_cdecl.dll": {}
-        }
-      },
-      "System.Memory/4.5.3": {
-        "type": "package",
-        "compile": {
-          "ref/netcoreapp2.1/_._": {}
-        },
-        "runtime": {
-          "lib/netcoreapp2.1/_._": {}
         }
       }
     },
@@ -22868,22 +20017,6 @@
           }
         }
       },
-      "Microsoft.Maui.Controls.Maps/8.0.3": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.Maui.Maps": "8.0.3"
-        },
-        "compile": {
-          "lib/net8.0-maccatalyst17.0/Microsoft.Maui.Controls.Maps.dll": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "runtime": {
-          "lib/net8.0-maccatalyst17.0/Microsoft.Maui.Controls.Maps.dll": {
-            "related": ".pdb;.xml"
-          }
-        }
-      },
       "Microsoft.Maui.Controls.Xaml/8.0.100": {
         "type": "package",
         "dependencies": {
@@ -22956,19 +20089,6 @@
           }
         }
       },
-      "Microsoft.Maui.Maps/8.0.3": {
-        "type": "package",
-        "compile": {
-          "lib/net8.0-maccatalyst17.0/Microsoft.Maui.Maps.dll": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "runtime": {
-          "lib/net8.0-maccatalyst17.0/Microsoft.Maui.Maps.dll": {
-            "related": ".pdb;.xml"
-          }
-        }
-      },
       "Microsoft.Maui.Resizetizer/8.0.100": {
         "type": "package",
         "build": {
@@ -22980,83 +20100,6 @@
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
-        }
-      },
-      "sqlite-net-pcl/1.8.116": {
-        "type": "package",
-        "dependencies": {
-          "SQLitePCLRaw.bundle_green": "2.0.4"
-        },
-        "compile": {
-          "lib/netstandard2.0/SQLite-net.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/netstandard2.0/SQLite-net.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "SQLitePCLRaw.bundle_green/2.0.4": {
-        "type": "package",
-        "dependencies": {
-          "SQLitePCLRaw.core": "2.0.4",
-          "SQLitePCLRaw.lib.e_sqlite3": "2.0.4",
-          "SQLitePCLRaw.provider.dynamic_cdecl": "2.0.4"
-        },
-        "compile": {
-          "lib/netcoreapp3.1/SQLitePCLRaw.batteries_v2.dll": {},
-          "lib/netcoreapp3.1/SQLitePCLRaw.nativelibrary.dll": {}
-        },
-        "runtime": {
-          "lib/netcoreapp3.1/SQLitePCLRaw.batteries_v2.dll": {},
-          "lib/netcoreapp3.1/SQLitePCLRaw.nativelibrary.dll": {}
-        }
-      },
-      "SQLitePCLRaw.core/2.0.4": {
-        "type": "package",
-        "dependencies": {
-          "System.Memory": "4.5.3"
-        },
-        "compile": {
-          "lib/netstandard2.0/SQLitePCLRaw.core.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/SQLitePCLRaw.core.dll": {}
-        }
-      },
-      "SQLitePCLRaw.lib.e_sqlite3/2.0.4": {
-        "type": "package",
-        "compile": {
-          "lib/netstandard2.0/_._": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/_._": {}
-        },
-        "native": {
-          "runtimes/linux-x86/native/libe_sqlite3.so": {}
-        }
-      },
-      "SQLitePCLRaw.provider.dynamic_cdecl/2.0.4": {
-        "type": "package",
-        "dependencies": {
-          "SQLitePCLRaw.core": "2.0.4"
-        },
-        "compile": {
-          "lib/netstandard2.0/SQLitePCLRaw.provider.dynamic_cdecl.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/SQLitePCLRaw.provider.dynamic_cdecl.dll": {}
-        }
-      },
-      "System.Memory/4.5.3": {
-        "type": "package",
-        "compile": {
-          "ref/netcoreapp2.1/_._": {}
-        },
-        "runtime": {
-          "lib/netcoreapp2.1/_._": {}
         }
       }
     },
@@ -23374,22 +20417,6 @@
           }
         }
       },
-      "Microsoft.Maui.Controls.Maps/8.0.3": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.Maui.Maps": "8.0.3"
-        },
-        "compile": {
-          "lib/net8.0-maccatalyst17.0/Microsoft.Maui.Controls.Maps.dll": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "runtime": {
-          "lib/net8.0-maccatalyst17.0/Microsoft.Maui.Controls.Maps.dll": {
-            "related": ".pdb;.xml"
-          }
-        }
-      },
       "Microsoft.Maui.Controls.Xaml/8.0.100": {
         "type": "package",
         "dependencies": {
@@ -23462,19 +20489,6 @@
           }
         }
       },
-      "Microsoft.Maui.Maps/8.0.3": {
-        "type": "package",
-        "compile": {
-          "lib/net8.0-maccatalyst17.0/Microsoft.Maui.Maps.dll": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "runtime": {
-          "lib/net8.0-maccatalyst17.0/Microsoft.Maui.Maps.dll": {
-            "related": ".pdb;.xml"
-          }
-        }
-      },
       "Microsoft.Maui.Resizetizer/8.0.100": {
         "type": "package",
         "build": {
@@ -23486,80 +20500,6 @@
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
-        }
-      },
-      "sqlite-net-pcl/1.8.116": {
-        "type": "package",
-        "dependencies": {
-          "SQLitePCLRaw.bundle_green": "2.0.4"
-        },
-        "compile": {
-          "lib/netstandard2.0/SQLite-net.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/netstandard2.0/SQLite-net.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "SQLitePCLRaw.bundle_green/2.0.4": {
-        "type": "package",
-        "dependencies": {
-          "SQLitePCLRaw.core": "2.0.4",
-          "SQLitePCLRaw.lib.e_sqlite3": "2.0.4",
-          "SQLitePCLRaw.provider.dynamic_cdecl": "2.0.4"
-        },
-        "compile": {
-          "lib/netcoreapp3.1/SQLitePCLRaw.batteries_v2.dll": {},
-          "lib/netcoreapp3.1/SQLitePCLRaw.nativelibrary.dll": {}
-        },
-        "runtime": {
-          "lib/netcoreapp3.1/SQLitePCLRaw.batteries_v2.dll": {},
-          "lib/netcoreapp3.1/SQLitePCLRaw.nativelibrary.dll": {}
-        }
-      },
-      "SQLitePCLRaw.core/2.0.4": {
-        "type": "package",
-        "dependencies": {
-          "System.Memory": "4.5.3"
-        },
-        "compile": {
-          "lib/netstandard2.0/SQLitePCLRaw.core.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/SQLitePCLRaw.core.dll": {}
-        }
-      },
-      "SQLitePCLRaw.lib.e_sqlite3/2.0.4": {
-        "type": "package",
-        "compile": {
-          "lib/netstandard2.0/_._": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/_._": {}
-        }
-      },
-      "SQLitePCLRaw.provider.dynamic_cdecl/2.0.4": {
-        "type": "package",
-        "dependencies": {
-          "SQLitePCLRaw.core": "2.0.4"
-        },
-        "compile": {
-          "lib/netstandard2.0/SQLitePCLRaw.provider.dynamic_cdecl.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/SQLitePCLRaw.provider.dynamic_cdecl.dll": {}
-        }
-      },
-      "System.Memory/4.5.3": {
-        "type": "package",
-        "compile": {
-          "ref/netcoreapp2.1/_._": {}
-        },
-        "runtime": {
-          "lib/netcoreapp2.1/_._": {}
         }
       }
     },
@@ -23877,22 +20817,6 @@
           }
         }
       },
-      "Microsoft.Maui.Controls.Maps/8.0.3": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.Maui.Maps": "8.0.3"
-        },
-        "compile": {
-          "lib/net8.0-maccatalyst17.0/Microsoft.Maui.Controls.Maps.dll": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "runtime": {
-          "lib/net8.0-maccatalyst17.0/Microsoft.Maui.Controls.Maps.dll": {
-            "related": ".pdb;.xml"
-          }
-        }
-      },
       "Microsoft.Maui.Controls.Xaml/8.0.100": {
         "type": "package",
         "dependencies": {
@@ -23965,19 +20889,6 @@
           }
         }
       },
-      "Microsoft.Maui.Maps/8.0.3": {
-        "type": "package",
-        "compile": {
-          "lib/net8.0-maccatalyst17.0/Microsoft.Maui.Maps.dll": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "runtime": {
-          "lib/net8.0-maccatalyst17.0/Microsoft.Maui.Maps.dll": {
-            "related": ".pdb;.xml"
-          }
-        }
-      },
       "Microsoft.Maui.Resizetizer/8.0.100": {
         "type": "package",
         "build": {
@@ -23989,80 +20900,6 @@
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
-        }
-      },
-      "sqlite-net-pcl/1.8.116": {
-        "type": "package",
-        "dependencies": {
-          "SQLitePCLRaw.bundle_green": "2.0.4"
-        },
-        "compile": {
-          "lib/netstandard2.0/SQLite-net.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/netstandard2.0/SQLite-net.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "SQLitePCLRaw.bundle_green/2.0.4": {
-        "type": "package",
-        "dependencies": {
-          "SQLitePCLRaw.core": "2.0.4",
-          "SQLitePCLRaw.lib.e_sqlite3": "2.0.4",
-          "SQLitePCLRaw.provider.dynamic_cdecl": "2.0.4"
-        },
-        "compile": {
-          "lib/netcoreapp3.1/SQLitePCLRaw.batteries_v2.dll": {},
-          "lib/netcoreapp3.1/SQLitePCLRaw.nativelibrary.dll": {}
-        },
-        "runtime": {
-          "lib/netcoreapp3.1/SQLitePCLRaw.batteries_v2.dll": {},
-          "lib/netcoreapp3.1/SQLitePCLRaw.nativelibrary.dll": {}
-        }
-      },
-      "SQLitePCLRaw.core/2.0.4": {
-        "type": "package",
-        "dependencies": {
-          "System.Memory": "4.5.3"
-        },
-        "compile": {
-          "lib/netstandard2.0/SQLitePCLRaw.core.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/SQLitePCLRaw.core.dll": {}
-        }
-      },
-      "SQLitePCLRaw.lib.e_sqlite3/2.0.4": {
-        "type": "package",
-        "compile": {
-          "lib/netstandard2.0/_._": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/_._": {}
-        }
-      },
-      "SQLitePCLRaw.provider.dynamic_cdecl/2.0.4": {
-        "type": "package",
-        "dependencies": {
-          "SQLitePCLRaw.core": "2.0.4"
-        },
-        "compile": {
-          "lib/netstandard2.0/SQLitePCLRaw.provider.dynamic_cdecl.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/SQLitePCLRaw.provider.dynamic_cdecl.dll": {}
-        }
-      },
-      "System.Memory/4.5.3": {
-        "type": "package",
-        "compile": {
-          "ref/netcoreapp2.1/_._": {}
-        },
-        "runtime": {
-          "lib/netcoreapp2.1/_._": {}
         }
       }
     }
@@ -24991,48 +21828,6 @@
         "microsoft.maui.controls.core.nuspec"
       ]
     },
-    "Microsoft.Maui.Controls.Maps/8.0.3": {
-      "sha512": "eMtzMm6GB8TpQKmqiStwNK6AwYOn2ivrHwLbrdpBa/5xDYXIQZIllBb3Wvm1H+fw/Id6EOLLjlti+7BD5ui9IQ==",
-      "type": "package",
-      "path": "microsoft.maui.controls.maps/8.0.3",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "LICENSE.TXT",
-        "README.md",
-        "THIRD-PARTY-NOTICES.TXT",
-        "icon.png",
-        "lib/net8.0-android34.0/Microsoft.Maui.Controls.Maps.dll",
-        "lib/net8.0-android34.0/Microsoft.Maui.Controls.Maps.pdb",
-        "lib/net8.0-android34.0/Microsoft.Maui.Controls.Maps.xml",
-        "lib/net8.0-ios17.0/Microsoft.Maui.Controls.Maps.dll",
-        "lib/net8.0-ios17.0/Microsoft.Maui.Controls.Maps.pdb",
-        "lib/net8.0-ios17.0/Microsoft.Maui.Controls.Maps.xml",
-        "lib/net8.0-maccatalyst17.0/Microsoft.Maui.Controls.Maps.dll",
-        "lib/net8.0-maccatalyst17.0/Microsoft.Maui.Controls.Maps.pdb",
-        "lib/net8.0-maccatalyst17.0/Microsoft.Maui.Controls.Maps.xml",
-        "lib/net8.0-tizen7.0/Microsoft.Maui.Controls.Maps.dll",
-        "lib/net8.0-tizen7.0/Microsoft.Maui.Controls.Maps.pdb",
-        "lib/net8.0-tizen7.0/Microsoft.Maui.Controls.Maps.xml",
-        "lib/net8.0-windows10.0.19041/Microsoft.Maui.Controls.Maps.dll",
-        "lib/net8.0-windows10.0.19041/Microsoft.Maui.Controls.Maps.pdb",
-        "lib/net8.0-windows10.0.19041/Microsoft.Maui.Controls.Maps.xml",
-        "lib/net8.0-windows10.0.20348/Microsoft.Maui.Controls.Maps.dll",
-        "lib/net8.0-windows10.0.20348/Microsoft.Maui.Controls.Maps.pdb",
-        "lib/net8.0-windows10.0.20348/Microsoft.Maui.Controls.Maps.xml",
-        "lib/net8.0/Microsoft.Maui.Controls.Maps.dll",
-        "lib/net8.0/Microsoft.Maui.Controls.Maps.pdb",
-        "lib/net8.0/Microsoft.Maui.Controls.Maps.xml",
-        "lib/netstandard2.0/Microsoft.Maui.Controls.Maps.dll",
-        "lib/netstandard2.0/Microsoft.Maui.Controls.Maps.pdb",
-        "lib/netstandard2.0/Microsoft.Maui.Controls.Maps.xml",
-        "lib/netstandard2.1/Microsoft.Maui.Controls.Maps.dll",
-        "lib/netstandard2.1/Microsoft.Maui.Controls.Maps.pdb",
-        "lib/netstandard2.1/Microsoft.Maui.Controls.Maps.xml",
-        "microsoft.maui.controls.maps.8.0.3.nupkg.sha512",
-        "microsoft.maui.controls.maps.nuspec"
-      ]
-    },
     "Microsoft.Maui.Controls.Xaml/8.0.100": {
       "sha512": "GBfjikOi5FBkpQKcYQnzYwImcYMKGR0eSFGcE8rThc9VBaPGGoRq9ttMEGuY5QclVs7NtSmaYpf38ShGLbLcqw==",
       "type": "package",
@@ -25309,48 +22104,6 @@
         "microsoft.maui.graphics.nuspec"
       ]
     },
-    "Microsoft.Maui.Maps/8.0.3": {
-      "sha512": "L51nXCSGqfVTkdNaBH3/m+dyYQ2mwXVVHXijRYNKQA5fvLsXQVtuVB3OPCERN6TCVaL8ZVbqPo4YRh/HHfO/gw==",
-      "type": "package",
-      "path": "microsoft.maui.maps/8.0.3",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "LICENSE.TXT",
-        "README.md",
-        "THIRD-PARTY-NOTICES.TXT",
-        "icon.png",
-        "lib/net8.0-android34.0/Microsoft.Maui.Maps.dll",
-        "lib/net8.0-android34.0/Microsoft.Maui.Maps.pdb",
-        "lib/net8.0-android34.0/Microsoft.Maui.Maps.xml",
-        "lib/net8.0-ios17.0/Microsoft.Maui.Maps.dll",
-        "lib/net8.0-ios17.0/Microsoft.Maui.Maps.pdb",
-        "lib/net8.0-ios17.0/Microsoft.Maui.Maps.xml",
-        "lib/net8.0-maccatalyst17.0/Microsoft.Maui.Maps.dll",
-        "lib/net8.0-maccatalyst17.0/Microsoft.Maui.Maps.pdb",
-        "lib/net8.0-maccatalyst17.0/Microsoft.Maui.Maps.xml",
-        "lib/net8.0-tizen7.0/Microsoft.Maui.Maps.dll",
-        "lib/net8.0-tizen7.0/Microsoft.Maui.Maps.pdb",
-        "lib/net8.0-tizen7.0/Microsoft.Maui.Maps.xml",
-        "lib/net8.0-windows10.0.19041/Microsoft.Maui.Maps.dll",
-        "lib/net8.0-windows10.0.19041/Microsoft.Maui.Maps.pdb",
-        "lib/net8.0-windows10.0.19041/Microsoft.Maui.Maps.xml",
-        "lib/net8.0-windows10.0.20348/Microsoft.Maui.Maps.dll",
-        "lib/net8.0-windows10.0.20348/Microsoft.Maui.Maps.pdb",
-        "lib/net8.0-windows10.0.20348/Microsoft.Maui.Maps.xml",
-        "lib/net8.0/Microsoft.Maui.Maps.dll",
-        "lib/net8.0/Microsoft.Maui.Maps.pdb",
-        "lib/net8.0/Microsoft.Maui.Maps.xml",
-        "lib/netstandard2.0/Microsoft.Maui.Maps.dll",
-        "lib/netstandard2.0/Microsoft.Maui.Maps.pdb",
-        "lib/netstandard2.0/Microsoft.Maui.Maps.xml",
-        "lib/netstandard2.1/Microsoft.Maui.Maps.dll",
-        "lib/netstandard2.1/Microsoft.Maui.Maps.pdb",
-        "lib/netstandard2.1/Microsoft.Maui.Maps.xml",
-        "microsoft.maui.maps.8.0.3.nupkg.sha512",
-        "microsoft.maui.maps.nuspec"
-      ]
-    },
     "Microsoft.Maui.Resizetizer/8.0.100": {
       "sha512": "wEVBLYTe/tu30z9yR+tFupXiixqMaxkSp/xqC7FGlV6g9MvYo/wAcwTO+XWay2k/ug5qlxz6MXt5mEac7FMLmA==",
       "type": "package",
@@ -25458,190 +22211,6 @@
         "tools/net8.0/illink.dll",
         "tools/net8.0/illink.runtimeconfig.json",
         "useSharedDesignerContext.txt"
-      ]
-    },
-    "sqlite-net-pcl/1.8.116": {
-      "sha512": "W0NuwAOVVAR9LP4eZwNBIrim1p3EN7t8iNfSHXEhtzKAd4YyItekoQ8NyWYs4faVSrN2KZr/P5u4hycCjKKexg==",
-      "type": "package",
-      "path": "sqlite-net-pcl/1.8.116",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "LICENSE.txt",
-        "Logo-low.png",
-        "lib/netstandard2.0/SQLite-net.dll",
-        "lib/netstandard2.0/SQLite-net.xml",
-        "sqlite-net-pcl.1.8.116.nupkg.sha512",
-        "sqlite-net-pcl.nuspec"
-      ]
-    },
-    "SQLitePCLRaw.bundle_green/2.0.4": {
-      "sha512": "ubFgOHDmtTcq2LU7Ss10yHnFVMm2rFVr65Ggi+Mh514KjGx4pal98P2zSvZtWf3wbtJw6G1InBgeozBtnpEfKQ==",
-      "type": "package",
-      "path": "sqlitepclraw.bundle_green/2.0.4",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/Xamarin.iOS10/SQLitePCLRaw.batteries_v2.dll",
-        "lib/Xamarin.iOS10/SQLitePCLRaw.nativelibrary.dll",
-        "lib/net461/SQLitePCLRaw.batteries_v2.dll",
-        "lib/net461/SQLitePCLRaw.nativelibrary.dll",
-        "lib/netcoreapp3.1/SQLitePCLRaw.batteries_v2.dll",
-        "lib/netcoreapp3.1/SQLitePCLRaw.nativelibrary.dll",
-        "lib/netstandard2.0/SQLitePCLRaw.batteries_v2.dll",
-        "sqlitepclraw.bundle_green.2.0.4.nupkg.sha512",
-        "sqlitepclraw.bundle_green.nuspec"
-      ]
-    },
-    "SQLitePCLRaw.core/2.0.4": {
-      "sha512": "4XlDZpDAsboMD6qZQcz9AaKblKDUTVHF+8f3lvbP7QjoqSRr2Xc0Lm34IK2pjRIYnyFLhI3yOJ5YWfOiCid2yg==",
-      "type": "package",
-      "path": "sqlitepclraw.core/2.0.4",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/netstandard2.0/SQLitePCLRaw.core.dll",
-        "sqlitepclraw.core.2.0.4.nupkg.sha512",
-        "sqlitepclraw.core.nuspec"
-      ]
-    },
-    "SQLitePCLRaw.lib.e_sqlite3/2.0.4": {
-      "sha512": "oetvmtDZOE4Nnrtxd8Trapl9geBiu0rDCUXff46qGYjnUwzaU1mZ3OHnfR402tl32rx8gBWg3n5OBRaPJRbsGw==",
-      "type": "package",
-      "path": "sqlitepclraw.lib.e_sqlite3/2.0.4",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "build/net461/SQLitePCLRaw.lib.e_sqlite3.targets",
-        "lib/net461/_._",
-        "lib/netstandard2.0/_._",
-        "runtimes/alpine-x64/native/libe_sqlite3.so",
-        "runtimes/linux-arm/native/libe_sqlite3.so",
-        "runtimes/linux-arm64/native/libe_sqlite3.so",
-        "runtimes/linux-armel/native/libe_sqlite3.so",
-        "runtimes/linux-mips64/native/libe_sqlite3.so",
-        "runtimes/linux-musl-x64/native/libe_sqlite3.so",
-        "runtimes/linux-x64/native/libe_sqlite3.so",
-        "runtimes/linux-x86/native/libe_sqlite3.so",
-        "runtimes/osx-x64/native/libe_sqlite3.dylib",
-        "runtimes/win-arm/native/e_sqlite3.dll",
-        "runtimes/win-arm64/native/e_sqlite3.dll",
-        "runtimes/win-x64/native/e_sqlite3.dll",
-        "runtimes/win-x86/native/e_sqlite3.dll",
-        "runtimes/win10-arm/nativeassets/uap10.0/e_sqlite3.dll",
-        "runtimes/win10-arm64/nativeassets/uap10.0/e_sqlite3.dll",
-        "runtimes/win10-x64/nativeassets/uap10.0/e_sqlite3.dll",
-        "runtimes/win10-x86/nativeassets/uap10.0/e_sqlite3.dll",
-        "sqlitepclraw.lib.e_sqlite3.2.0.4.nupkg.sha512",
-        "sqlitepclraw.lib.e_sqlite3.nuspec"
-      ]
-    },
-    "SQLitePCLRaw.lib.e_sqlite3.android/2.0.4": {
-      "sha512": "M7evP2q/gosKlDvxtQ+T4h+MWNiBzfIis1eZr6jrQnh3H9md+74e2cni/b0vm2OymyV/zZp7cKfUgde57zvqwA==",
-      "type": "package",
-      "path": "sqlitepclraw.lib.e_sqlite3.android/2.0.4",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/monoandroid80/SQLitePCLRaw.lib.e_sqlite3.android.dll",
-        "sqlitepclraw.lib.e_sqlite3.android.2.0.4.nupkg.sha512",
-        "sqlitepclraw.lib.e_sqlite3.android.nuspec"
-      ]
-    },
-    "SQLitePCLRaw.provider.dynamic_cdecl/2.0.4": {
-      "sha512": "AY6+vv/4ji1mCkLrS6HP/88rHT9YFKRyg3LUj8RyIk6imJMUFdQDiP8rK8gq0a/0FbqspLjK1t7rtKcr7FXRYA==",
-      "type": "package",
-      "path": "sqlitepclraw.provider.dynamic_cdecl/2.0.4",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/netstandard2.0/SQLitePCLRaw.provider.dynamic_cdecl.dll",
-        "sqlitepclraw.provider.dynamic_cdecl.2.0.4.nupkg.sha512",
-        "sqlitepclraw.provider.dynamic_cdecl.nuspec"
-      ]
-    },
-    "SQLitePCLRaw.provider.e_sqlite3/2.0.4": {
-      "sha512": "YiqCw+PfiPIuX2aZnEqt1ya5ldGm4ParIqzaRXtztDu8mdzZxOXVYOrKZazXg6nbwYbCP1H5mOYGmBFQ2W0M5g==",
-      "type": "package",
-      "path": "sqlitepclraw.provider.e_sqlite3/2.0.4",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/netstandard2.0/SQLitePCLRaw.provider.e_sqlite3.dll",
-        "lib/uap10.0/SQLitePCLRaw.provider.e_sqlite3.dll",
-        "sqlitepclraw.provider.e_sqlite3.2.0.4.nupkg.sha512",
-        "sqlitepclraw.provider.e_sqlite3.nuspec"
-      ]
-    },
-    "System.Buffers/4.4.0": {
-      "sha512": "AwarXzzoDwX6BgrhjoJsk6tUezZEozOT5Y9QKF94Gl4JK91I4PIIBkBco9068Y9/Dra8Dkbie99kXB8+1BaYKw==",
-      "type": "package",
-      "path": "system.buffers/4.4.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "LICENSE.TXT",
-        "THIRD-PARTY-NOTICES.TXT",
-        "lib/netcoreapp2.0/_._",
-        "lib/netstandard1.1/System.Buffers.dll",
-        "lib/netstandard1.1/System.Buffers.xml",
-        "lib/netstandard2.0/System.Buffers.dll",
-        "lib/netstandard2.0/System.Buffers.xml",
-        "ref/netcoreapp2.0/_._",
-        "ref/netstandard1.1/System.Buffers.dll",
-        "ref/netstandard1.1/System.Buffers.xml",
-        "ref/netstandard2.0/System.Buffers.dll",
-        "ref/netstandard2.0/System.Buffers.xml",
-        "system.buffers.4.4.0.nupkg.sha512",
-        "system.buffers.nuspec",
-        "useSharedDesignerContext.txt",
-        "version.txt"
-      ]
-    },
-    "System.Memory/4.5.3": {
-      "sha512": "3oDzvc/zzetpTKWMShs1AADwZjQ/36HnsufHRPcOjyRAAMLDlu2iD33MBI2opxnezcVUtXyqDXXjoFMOU9c7SA==",
-      "type": "package",
-      "path": "system.memory/4.5.3",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "LICENSE.TXT",
-        "THIRD-PARTY-NOTICES.TXT",
-        "lib/netcoreapp2.1/_._",
-        "lib/netstandard1.1/System.Memory.dll",
-        "lib/netstandard1.1/System.Memory.xml",
-        "lib/netstandard2.0/System.Memory.dll",
-        "lib/netstandard2.0/System.Memory.xml",
-        "ref/netcoreapp2.1/_._",
-        "system.memory.4.5.3.nupkg.sha512",
-        "system.memory.nuspec",
-        "useSharedDesignerContext.txt",
-        "version.txt"
-      ]
-    },
-    "System.Runtime.CompilerServices.Unsafe/4.5.2": {
-      "sha512": "wprSFgext8cwqymChhrBLu62LMg/1u92bU+VOwyfBimSPVFXtsNqEWC92Pf9ofzJFlk4IHmJA75EDJn1b2goAQ==",
-      "type": "package",
-      "path": "system.runtime.compilerservices.unsafe/4.5.2",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "LICENSE.TXT",
-        "THIRD-PARTY-NOTICES.TXT",
-        "lib/netcoreapp2.0/System.Runtime.CompilerServices.Unsafe.dll",
-        "lib/netcoreapp2.0/System.Runtime.CompilerServices.Unsafe.xml",
-        "lib/netstandard1.0/System.Runtime.CompilerServices.Unsafe.dll",
-        "lib/netstandard1.0/System.Runtime.CompilerServices.Unsafe.xml",
-        "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll",
-        "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.xml",
-        "ref/netstandard1.0/System.Runtime.CompilerServices.Unsafe.dll",
-        "ref/netstandard1.0/System.Runtime.CompilerServices.Unsafe.xml",
-        "ref/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll",
-        "ref/netstandard2.0/System.Runtime.CompilerServices.Unsafe.xml",
-        "system.runtime.compilerservices.unsafe.4.5.2.nupkg.sha512",
-        "system.runtime.compilerservices.unsafe.nuspec",
-        "useSharedDesignerContext.txt",
-        "version.txt"
       ]
     },
     "Xamarin.Android.Glide/4.15.1.2": {
@@ -27425,28 +23994,6 @@
         "xamarin.androidx.window.extensions.core.core.nuspec"
       ]
     },
-    "Xamarin.Build.Download/0.11.4": {
-      "sha512": "u2ROt0h6P7mfs0jbmgvmTrqU/YEpEZcf16xcHa78GSEp7fOZunNtJLCZxooeI1V5p+lrr9kYdg3Pa8FoTbgcXQ==",
-      "type": "package",
-      "path": "xamarin.build.download/0.11.4",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "THIRD-PARTY-NOTICE.txt",
-        "build/Microsoft.Win32.Registry.dll",
-        "build/Newtonsoft.Json.dll",
-        "build/Xamarin.Build.Download.dll",
-        "build/Xamarin.Build.Download.props",
-        "build/Xamarin.Build.Download.targets",
-        "buildTransitive/Microsoft.Win32.Registry.dll",
-        "buildTransitive/Newtonsoft.Json.dll",
-        "buildTransitive/Xamarin.Build.Download.dll",
-        "buildTransitive/Xamarin.Build.Download.props",
-        "buildTransitive/Xamarin.Build.Download.targets",
-        "xamarin.build.download.0.11.4.nupkg.sha512",
-        "xamarin.build.download.nuspec"
-      ]
-    },
     "Xamarin.Google.Android.Material/1.9.0.2": {
       "sha512": "sLmA5Kff8m4CjjUqYc8SZKjXpOF9xIAFJc2eNNfd8T0NY9bb6tbl6YL2rjUxCNI1qfs4qHaDHm/cDrEwI5DGfQ==",
       "type": "package",
@@ -27547,101 +24094,6 @@
         "lib/net6.0-android31.0/Xamarin.Google.Guava.ListenableFuture.xml",
         "xamarin.google.guava.listenablefuture.1.0.0.14.nupkg.sha512",
         "xamarin.google.guava.listenablefuture.nuspec"
-      ]
-    },
-    "Xamarin.GooglePlayServices.Base/118.2.0.2": {
-      "sha512": "/kzRJJ3SiAB5E6chSzn6ItBwnLNIqZuub4Nbgah87UAo1XSL4w8Mo94UcjK8V6AG9FoY77+vo4fEYhmsgP5ePw==",
-      "type": "package",
-      "path": "xamarin.googleplayservices.base/118.2.0.2",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "build/monoandroid12.0/Xamarin.GooglePlayServices.Base.targets",
-        "build/net6.0-android31.0/Xamarin.GooglePlayServices.Base.targets",
-        "buildTransitive/monoandroid12.0/Xamarin.GooglePlayServices.Base.targets",
-        "buildTransitive/net6.0-android31.0/Xamarin.GooglePlayServices.Base.targets",
-        "lib/monoandroid12.0/Xamarin.GooglePlayServices.Base.dll",
-        "lib/monoandroid12.0/Xamarin.GooglePlayServices.Base.pdb",
-        "lib/monoandroid12.0/Xamarin.GooglePlayServices.Base.xml",
-        "lib/net6.0-android31.0/Xamarin.GooglePlayServices.Base.dll",
-        "lib/net6.0-android31.0/Xamarin.GooglePlayServices.Base.pdb",
-        "lib/net6.0-android31.0/Xamarin.GooglePlayServices.Base.xml",
-        "lib/net6.0-android31.0/play-services-base.aar",
-        "proguard/proguard.txt",
-        "xamarin.googleplayservices.base.118.2.0.2.nupkg.sha512",
-        "xamarin.googleplayservices.base.nuspec"
-      ]
-    },
-    "Xamarin.GooglePlayServices.Basement/118.2.0.2": {
-      "sha512": "xpoompl7wJd2YJZtQ/B4uSYDWv6JeXgT+7iJH9fT/V4HXptq3VYgsx5Ig3rE5hMn+2QoRoUwMWsS1HLlqaHX7Q==",
-      "type": "package",
-      "path": "xamarin.googleplayservices.basement/118.2.0.2",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "build/monoandroid12.0/Xamarin.GooglePlayServices.Basement.targets",
-        "build/monoandroid12.0/Xamarin.GooglePlayServices.Tasks.dll",
-        "build/net6.0-android31.0/Xamarin.GooglePlayServices.Basement.targets",
-        "build/net6.0-android31.0/Xamarin.GooglePlayServices.Tasks.dll",
-        "buildTransitive/monoandroid12.0/Xamarin.GooglePlayServices.Basement.targets",
-        "buildTransitive/monoandroid12.0/Xamarin.GooglePlayServices.Tasks.dll",
-        "buildTransitive/net6.0-android31.0/Xamarin.GooglePlayServices.Basement.targets",
-        "buildTransitive/net6.0-android31.0/Xamarin.GooglePlayServices.Tasks.dll",
-        "lib/monoandroid12.0/Xamarin.GooglePlayServices.Basement.dll",
-        "lib/monoandroid12.0/Xamarin.GooglePlayServices.Basement.pdb",
-        "lib/monoandroid12.0/Xamarin.GooglePlayServices.Basement.xml",
-        "lib/net6.0-android31.0/Xamarin.GooglePlayServices.Basement.dll",
-        "lib/net6.0-android31.0/Xamarin.GooglePlayServices.Basement.pdb",
-        "lib/net6.0-android31.0/Xamarin.GooglePlayServices.Basement.xml",
-        "lib/net6.0-android31.0/play-services-basement.aar",
-        "proguard/proguard.txt",
-        "xamarin.googleplayservices.basement.118.2.0.2.nupkg.sha512",
-        "xamarin.googleplayservices.basement.nuspec"
-      ]
-    },
-    "Xamarin.GooglePlayServices.Maps/118.1.0.3": {
-      "sha512": "+HqeLXiZtd/gOKD1Nl0ko078JfDCrk6eLWXzxQbulNFWLjByMOQtO8J4E85Ae5LwNk87L568Wuis7fQsn7JQMw==",
-      "type": "package",
-      "path": "xamarin.googleplayservices.maps/118.1.0.3",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "build/monoandroid12.0/Xamarin.GooglePlayServices.Maps.targets",
-        "build/net6.0-android31.0/Xamarin.GooglePlayServices.Maps.targets",
-        "buildTransitive/monoandroid12.0/Xamarin.GooglePlayServices.Maps.targets",
-        "buildTransitive/net6.0-android31.0/Xamarin.GooglePlayServices.Maps.targets",
-        "lib/monoandroid12.0/Xamarin.GooglePlayServices.Maps.dll",
-        "lib/monoandroid12.0/Xamarin.GooglePlayServices.Maps.pdb",
-        "lib/monoandroid12.0/Xamarin.GooglePlayServices.Maps.xml",
-        "lib/net6.0-android31.0/Xamarin.GooglePlayServices.Maps.dll",
-        "lib/net6.0-android31.0/Xamarin.GooglePlayServices.Maps.pdb",
-        "lib/net6.0-android31.0/Xamarin.GooglePlayServices.Maps.xml",
-        "lib/net6.0-android31.0/play-services-maps.aar",
-        "xamarin.googleplayservices.maps.118.1.0.3.nupkg.sha512",
-        "xamarin.googleplayservices.maps.nuspec"
-      ]
-    },
-    "Xamarin.GooglePlayServices.Tasks/118.0.2.3": {
-      "sha512": "Xo/BbgZihz9WraXivooVLDwODpk1V1/ba8eKrgEN82ZBWUPytJZr10tbm88dO86tWrjTTHekO6rGEs41DmXI+g==",
-      "type": "package",
-      "path": "xamarin.googleplayservices.tasks/118.0.2.3",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "build/monoandroid12.0/Xamarin.GooglePlayServices.Tasks.targets",
-        "build/net6.0-android31.0/Xamarin.GooglePlayServices.Tasks.targets",
-        "buildTransitive/monoandroid12.0/Xamarin.GooglePlayServices.Tasks.targets",
-        "buildTransitive/net6.0-android31.0/Xamarin.GooglePlayServices.Tasks.targets",
-        "lib/monoandroid12.0/Xamarin.GooglePlayServices.Tasks.dll",
-        "lib/monoandroid12.0/Xamarin.GooglePlayServices.Tasks.pdb",
-        "lib/monoandroid12.0/Xamarin.GooglePlayServices.Tasks.xml",
-        "lib/net6.0-android31.0/Xamarin.GooglePlayServices.Tasks.dll",
-        "lib/net6.0-android31.0/Xamarin.GooglePlayServices.Tasks.pdb",
-        "lib/net6.0-android31.0/Xamarin.GooglePlayServices.Tasks.xml",
-        "lib/net6.0-android31.0/play-services-tasks.aar",
-        "proguard/proguard.txt",
-        "xamarin.googleplayservices.tasks.118.0.2.3.nupkg.sha512",
-        "xamarin.googleplayservices.tasks.nuspec"
       ]
     },
     "Xamarin.Jetbrains.Annotations/24.0.1.3": {
@@ -27803,23 +24255,17 @@
     "net8.0-android34.0": [
       "Microsoft.Maui.Controls >= 8.0.100",
       "Microsoft.Maui.Controls.Compatibility >= 8.0.100",
-      "Microsoft.Maui.Controls.Maps >= 8.0.3",
-      "Microsoft.NET.ILLink.Tasks >= 8.0.22",
-      "sqlite-net-pcl >= 1.8.116"
+      "Microsoft.NET.ILLink.Tasks >= 8.0.22"
     ],
     "net8.0-ios18.0": [
       "Microsoft.Maui.Controls >= 8.0.100",
       "Microsoft.Maui.Controls.Compatibility >= 8.0.100",
-      "Microsoft.Maui.Controls.Maps >= 8.0.3",
-      "Microsoft.NET.ILLink.Tasks >= 8.0.22",
-      "sqlite-net-pcl >= 1.8.116"
+      "Microsoft.NET.ILLink.Tasks >= 8.0.22"
     ],
     "net8.0-maccatalyst18.0": [
       "Microsoft.Maui.Controls >= 8.0.100",
       "Microsoft.Maui.Controls.Compatibility >= 8.0.100",
-      "Microsoft.Maui.Controls.Maps >= 8.0.3",
-      "Microsoft.NET.ILLink.Tasks >= 8.0.22",
-      "sqlite-net-pcl >= 1.8.116"
+      "Microsoft.NET.ILLink.Tasks >= 8.0.22"
     ]
   },
   "packageFolders": {
@@ -27884,19 +24330,11 @@
             "target": "Package",
             "version": "[8.0.100, )"
           },
-          "Microsoft.Maui.Controls.Maps": {
-            "target": "Package",
-            "version": "[8.0.3, )"
-          },
           "Microsoft.NET.ILLink.Tasks": {
             "suppressParent": "All",
             "target": "Package",
             "version": "[8.0.22, )",
             "autoReferenced": true
-          },
-          "sqlite-net-pcl": {
-            "target": "Package",
-            "version": "[1.8.116, )"
           }
         },
         "imports": [
@@ -27931,19 +24369,11 @@
             "target": "Package",
             "version": "[8.0.100, )"
           },
-          "Microsoft.Maui.Controls.Maps": {
-            "target": "Package",
-            "version": "[8.0.3, )"
-          },
           "Microsoft.NET.ILLink.Tasks": {
             "suppressParent": "All",
             "target": "Package",
             "version": "[8.0.22, )",
             "autoReferenced": true
-          },
-          "sqlite-net-pcl": {
-            "target": "Package",
-            "version": "[1.8.116, )"
           }
         },
         "imports": [
@@ -27978,19 +24408,11 @@
             "target": "Package",
             "version": "[8.0.100, )"
           },
-          "Microsoft.Maui.Controls.Maps": {
-            "target": "Package",
-            "version": "[8.0.3, )"
-          },
           "Microsoft.NET.ILLink.Tasks": {
             "suppressParent": "All",
             "target": "Package",
             "version": "[8.0.22, )",
             "autoReferenced": true
-          },
-          "sqlite-net-pcl": {
-            "target": "Package",
-            "version": "[1.8.116, )"
           }
         },
         "imports": [
